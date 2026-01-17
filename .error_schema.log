@@ -1,0 +1,5 @@
+/Users/boss/Library/CloudStorage/Dropbox/TEACHING/@Hamilton/Linear Algebra/Linear Algebra 2026S/new-pretext-project/source/syllabus.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element p, got frontmatter
+/Users/boss/Library/CloudStorage/Dropbox/TEACHING/@Hamilton/Linear Algebra/Linear Algebra 2026S/new-pretext-project/source/syllabus.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element frontmatter there
+/Users/boss/Library/CloudStorage/Dropbox/TEACHING/@Hamilton/Linear Algebra/Linear Algebra 2026S/new-pretext-project/source/syllabus.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got frontmatter
+/Users/boss/Library/CloudStorage/Dropbox/TEACHING/@Hamilton/Linear Algebra/Linear Algebra 2026S/new-pretext-project/source/syllabus.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got frontmatter
+/Users/boss/Library/CloudStorage/Dropbox/TEACHING/@Hamilton/Linear Algebra/Linear Algebra 2026S/new-pretext-project/source/syllabus.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element exercise, got frontmatter

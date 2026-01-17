@@ -1,0 +1,8 @@
+INFO    : Staging deployment according to strategy pelican_default
+INFO    : Staging `syllabus-web` at `/Users/boss/Library/CloudStorage/Dropbox/TEACHING/@Hamilton/Linear Algebra/Linear Algebra 2026S/new-pretext-project/output/stage/syllabus`.
+WARNING : No build for `activities-web` was found in the directory `/Users/boss/Library/CloudStorage/Dropbox/TEACHING/@Hamilton/Linear Algebra/Linear Algebra 2026S/new-pretext-project/output/activities-web`.Try running `pretext build activities-web` to build this component first.
+INFO    : Skipping this target for now.
+WARNING : No build for `notes-web` was found in the directory `/Users/boss/Library/CloudStorage/Dropbox/TEACHING/@Hamilton/Linear Algebra/Linear Algebra 2026S/new-pretext-project/output/notes-web`.Try running `pretext build notes-web` to build this component first.
+INFO    : Skipping this target for now.
+ERROR   : Pelican is not installed. Please install Pelican to use this feature.
+INFO    : Initializing project with Git.

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template based on a syllabus by Mitch Keller -->
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <article xml:id="syllabus">
+    <title>Linear Algebra</title>
+    <subtitle>MATH-224W</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include chapters -->
+    <section xml:id="sec-course-info">
+      <title>Course Information</title>
+      <p>
+        <dl>
+          <li>
+            <title>Course Description</title>
+            <p>
+              Linear Algebra is about how lots of lines and planes (and things that behave a lot like lines and planes) behave at the same time, and the types of mathematical operations that can be defined when you’re working with line-like or plane-like things. By the end of this course, you’ll be able to answer the following questions.
+            </p>
+            <ul>
+              <li>
+                <p>
+                  What are the tools for solving systems of linear equations?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the fundamental structure of the algebra of matrices?
+                </p>
+              </li> 
+              <li>
+                <p>
+                  How can we characterize invertible matrices?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What are vector spaces and how can we describe them?
+                </p>
+              </li> 
+              <li>
+                <p>
+                  How can we tell when two vector spaces are the same? 
+                </p>
+              </li>
+              <li>
+                <p>
+                  What are the geometric properties of vector spaces and linear transformations?
+                </p>
+              </li> 
+              <li>
+                <p>
+                  And, finally, how do we communicate the answers to questions like these using formal mathematical writing?
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <title>Educational Goals</title>
+            <p>
+              Much of the <b>Disciplinary Practice</b>, <b>Creativity</b>, and <b>Communication and Expression</b> within mathematics comes through the process of solving a problem/proving a proposition and then writing it up. In this class, you will develop proof writing skills to communicate math as a mathematician would.
+            </p>
+          </li>
+          <li>
+            <title>Designations</title>
+            <p>
+              Writing Intensive
+            </p>
+          </li>
+          <li>
+            <title>Prerequisite</title>
+            <p>
+              MATH-116 Calculus 2
+            </p>
+          </li>
+        </dl>
+      </p>
+<!--       <paragraphs>
+        <title>Learning Outcomes</title>
+        <p>
+          <ol>
+            <li>
+              <p>
+                You will be able to write direct proofs and indirect proofs by contrapositive and contradiction, in LaTeX.
+              </p>
+            </li>
+            <li>
+              <p>
+                Apply basic combinatoric techniques to counting problems.
+              </p>
+            </li>
+            <li>
+              <p>
+                Develop basic skills to construct mathematically rigorous arguments and proofs.
+              </p>
+            </li>
+            <li>
+              <p>
+                Gain exposure to the basics of program analysis (program correctness, recurrences, asymptotic analysis).
+              </p>
+            </li>
+            <li>
+              <p>
+                Demonstrate a familiarity with and an ability to reason about discrete structures/data types (integers, strings, bit strings, sets, relations, functions, graphs, trees).
+              </p>
+            </li>
+          </ol>
+        </p>
+      </paragraphs> -->
+      <paragraphs>
+        <title>Meeting Times and Locations</title>
+        <p>
+          We meet <b>promptly</b> Tuesday and Thursday 9-10:15 am in C.J. 222.
+        </p>
+        <aside>
+          <p>
+            You need to be here on time because you will be part of a team in this course.
+          </p>
+        </aside>
+      </paragraphs>
+      <paragraphs>
+        <title>What We Do in Class</title>
+        <p>
+          This class meets for two 75-minute periods per week. You will do readings outside of class and teamwork for a grade and writing assignments for a grade in class.
+        </p>
+      </paragraphs>
+    </section>
+    <section xml:id="sec-staff" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <title>Course Staff</title>
+      <subsection>
+        <title>Professor</title>
+        <paragraphs>
+          <title>Dr. Courtney Gibbons</title>
+          <aside component="online">
+            <p>
+              My pronouns are she/her/hers.
+              I ask that you address me as <q>Prof. Gibbons</q> or <q>Courtney</q>, the appropriate professional forms.
+              Since this is not high school, please do not address me as <q>Ms.</q>, <q>Miss</q>, or <q>Mrs. Gibbons</q>.
+            </p>
+          </aside>
+          <p><nbsp/>
+            <dl>
+              <li>
+                <title>Title</title>
+                <p>
+                  Associate Professor of Mathematics and Director of the Data Science Program Committee
+                </p>
+              </li>
+              <li>
+                <title>Email</title>
+                <p>
+                  <url href="mailto:crgibbon@hamilton.edu">crgibbon@hamilon.edu</url>
+                </p>
+                <aside>
+                  <p>
+                    The email address cgibbons@hamilton.edu also reaches my inbox, but my <q>official</q> email is the one listed above.
+                  </p>
+                </aside>
+              </li>
+            </dl>
+          </p>
+        </paragraphs>
+      </subsection>
+      <subsection>
+        <title>QSR Tutors Assigned to Our Course </title>
+        <paragraphs>
+          <title>LEC 001 (TR 11am<ndash/>12:15pm)</title>
+            <p><nbsp/>
+              <dl>
+                <li>
+                <title>Tutor 1</title>
+                <p>
+                  <url href="mailto:name@example.edu" visual="name@example.edu">name@example.edu</url>
+                </p>
+              </li>
+              <li>
+                <title>Tutor 2</title>
+                <p>
+                  DIS 399 <url href="mailto:name@example.edu">name@example.edu</url>
+                </p>
+              </li>
+              </dl>
+            </p>
+        </paragraphs>
+
+      </subsection>
+      <subsection xml:id="subsec-office-hours">
+        <title>Office Hours</title>
+        <p>
+          Please drop by my office hours! No appointment is needed. An up-to-date calendar is available on Google calendar and you can add it to your calendar app if you like: <url href="https://calendar.google.com/calendar/u/0?cid=Y19mMzVkODc5ZWFjN2MzY2M1MTQ4Njg5YWZkZDBmYmFiMDZhMDVkZmRlYzlkYTQ3OGY3ZjAxOGI0OWJmNjNhYmE5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="new">Courtney's Office Hours Calendar</url>
+        </p>
+      </subsection>
+    </section>
+  <section xml:id="sec-materials">
+    <title>Textbook and Other Required Materials</title>
+    <p>
+      <dl>
+        <li>
+          <title>Textbook</title>
+          <p>
+            The required course text <pubtitle>Elementary Linear Algebra with Applications (Classic Version)</pubtitle> by Bernard Kolman and David Hill. You can find more information about the book at the Hamilton bookstore, <url>https://hamilton.bncollege.com/course-material-listing-page</url><alert>You may find the book for a better price elsewhere</alert>
+          </p>
+        </li>
+        <li>
+          <title>Blackboard</title>
+          <p>
+            All course materials will appear on Blackboard.
+          </p>
+        </li>
+        <li>
+          <title>Gradescope</title>
+          <p>
+            You will submit your teamwork and writing assignments via Gradescope, and they will be graded and returned to via Gradescope. Tests and the final exam will be taken on paper, but I will scan them and upload them to Gradescope. Graded tests will be returned to you using Gradescope. The final exam will not be returned to you, but you can come by to review it with me the following semester. You will be able to access Gradescope using links from Blackboard.
+          </p>
+        </li>
+        <li>
+          <title>Zulip</title>
+          <p>
+            We will use <url href="https://math224w01.zulipchat.com/join/7trxuj7ubkvgeypwjoa23kbl/" visual="math224w01.zulipchat.com">Zulip</url> as a forum for you to discuss the material of this class with other students, our assigned tutor(s), and me, your professor! Posts to this page should be confined to questions regarding the material and logistical questions about the class (e.g., exam dates and locations).
+          </p>
+          <p>
+            Keep it professional and positive, please.
+          </p>
+        </li>
+      </dl>
+    </p>
+  </section>
+  <section xml:id="sec-assessments">
+    <title>Assessments</title>
+    <paragraphs>
+      <title>Attendance</title>
+      <p>
+        This class is team-based, so you need to show up every day having completed the pre-class readings. Being physically present isn't enough---you need to show up ready to work!
+      </p>
+      <p>
+        This is worth 10% of your course grade.
+      </p>
+    </paragraphs>
+    <paragraphs>
+      <title>Teamwork</title>
+      <p>
+        Most weeks you will have a written homework assignment. These will give you an opportunity to write out proofs and solutions in the manner that you will be expected to on the exams. You will submit your solutions using Gradescope following instructions provided on Canvas. The questions on each written homework will be graded for correctness by the TAs and graders.
+      </p>
+      <p>
+        Collaborating with other students on the written homework is encouraged, but you must write up all reasoning and solutions on your own (in other words, no copying). Failure to abide by this guideline could be construed as a form of academic dishonesty.
+      </p>
+      <p>
+        The purpose of this course is to develop your ability to understand and construct mathematical arguments or proofs. The use of artificial intelligence (AI) tools and applications (including, but not limited to, ChatGPT, Copilot, DALL-E, and others) for written homework does not support the learning objectives of this course and is prohibited. Using them in any way for written homework in this course is a violation of the course’s expectations and will be addressed through UW–Madison’s academic misconduct policy, specifically UWS 14.03(1)b (b) Uses unauthorized materials or fabricated data in any academic exercise.
+      </p>
+      <p>
+        Each problem on written homework should be completed with neat, understandable, detailed solutions and explanations. Your explanations and proofs must be sound and rigorous, paying attention to detail and clarity.
+      </p>
+      <p>
+        Written homework is due Thursday nights at 11:59pm CT. It is worth 15% of your course grade. Late written homework will generally not be accepted. Since you likely will either experience a technical difficulty (e.g., missed the deadline, your computer shut down as you were submitting it, internet outage, etc.) or a personal emergency (being sick, attending a funeral, etc.) during the semester, the two lowest two written homework scores will be dropped. You do not need to contact your instructor or TA if such a situation does come up.
+      </p>
+    </paragraphs>
+    <paragraphs>
+      <title>Writing Assignments</title>
+      <p>filler text for now</p>
+      <p>more filler text</p>
+    </paragraphs>
+    <paragraphs>
+      <title>Exams</title>
+      <p>
+        This course will have two midterms and a final exam. Each will be worth 24% of your course grade. The dates and times for these assessments are:
+        <dl>
+          <li>
+            <title>Test I</title>
+            <p>
+              Wednesday, February 26, 2025. 7:30<ndash/>9pm. Location announced via Canvas.
+            </p>
+          </li>
+          <li>
+            <title>Test II</title>
+            <p>
+              Wednesday, April 9, 2025. 7:30<ndash/>9pm. Location announced via Canvas.
+            </p>
+          </li>
+          <li>
+            <title>Final Exam</title>
+            <p>
+              Tuesday, May 6, 2025. 5:05<ndash/>7:05pm. Location announced via Canvas.
+            </p>
+          </li>
+        </dl>
+      </p>
+      <p>
+        Students must use the form provided on Blackboard to let me know of conflicts with the dates and times of the tests or final exam during the first two week of classes. Reports of conflicts will be reviewed. Submitting incorrect information in order to take a test or the final exam at a different time may be considered an act of academic misconduct.
+      </p>
+      <p>
+        During exams, students will not be allowed to use any notes or electronic devices. Ample space will be provided on the exams for you to show your work. You must bring a writing utensil.
+      </p>
+      <p>
+        <em>Added March 7, 2025</em>: If a student's overall course grade would increase by using their final exam score in place of the lower of their scores on Test I and Test II, they will receive the grade based on this alternative grade computation method.
+      </p>
+    </paragraphs>
+  </section>
+  <section xml:id="sec-grading">
+    <title>Grading</title>
+    <p>
+      The grade components and their are all identified above. For quick reference, they are also summarized in the table below.
+    </p>
+    <tabular>
+      <row header="yes" bottom="minor">
+        <cell>Component</cell>
+        <cell>Weight</cell>
+      </row>
+      <row>
+        <cell>Attendance</cell>
+        <cell>10%</cell>
+      </row>
+      <row>
+        <cell>Teamwork</cell>
+        <cell>15%</cell>
+      </row>
+      <row>
+        <cell>Writing Assignments</cell>
+        <cell>15%</cell>
+      </row>
+      <row>
+        <cell>Midterm 1</cell>
+        <cell>20%</cell>
+      </row>
+      <row>
+        <cell>Midterm 2</cell>
+        <cell>20%</cell>
+      </row>
+      <row>
+        <cell>Final Exam</cell>
+        <cell>25%</cell>
+      </row>
+    </tabular>
+    <p>
+      Grades will <em>not</em> be rounded up to the next integer. The lower cutoff for each letter grade is given in the table below. It is possible that these cutoffs will be adjusted at the end of the semester. However, if this is done, it will only be done in a way that benefits students by lowering the cutoff to earn a given letter grade.
+    </p>
+    <tabular>
+      <col halign="center"/><col />
+      <row header="yes" bottom="minor">
+        <cell>Letter Grade</cell>
+        <cell>Lower Cutoff</cell>
+      </row>
+      <row>
+        <cell>A</cell>
+        <cell>92%</cell>
+      </row>
+      <row>
+        <cell>AB</cell>
+        <cell>87%</cell>
+      </row>
+      <row>
+        <cell>B</cell>
+        <cell>82%</cell>
+      </row>
+      <row>
+        <cell>BC</cell>
+        <cell>77%</cell>
+      </row>
+      <row>
+        <cell>C</cell>
+        <cell>70%</cell>
+      </row>
+      <row>
+        <cell>D</cell>
+        <cell>60%</cell>
+      </row>
+      <row>
+        <cell>F</cell>
+        <cell>0%</cell>
+      </row>
+    </tabular>
+  </section>
+  <section xml:id="sec-schedule">
+    <title>Tentative Schedule of Topics</title>
+    <p>
+      <dl>
+        <li>
+          <title>Week 1</title>
+          <p>
+            Integer Properties; Logic
+          </p>
+        </li>
+        <li>
+          <title>Week 2</title>
+          <p>
+            Logic
+          </p>
+        </li>
+        <li>
+          <title>Week 3</title>
+          <p>
+            Proofs
+          </p>
+        </li>
+        <li>
+          <title>Week 4</title>
+          <p>
+            Sets; Functions
+          </p>
+        </li>
+        <li>
+          <title>Week 5</title>
+          <p>
+            Functions; Computation
+          </p>
+        </li>
+        <li>
+          <title>Week 6</title>
+          <p>
+            Computation and <alert>Test I on Wednesday, February 26 (7:30<ndash/>9pm)</alert>
+          </p>
+        </li>
+        <li>
+          <title>Week 7</title>
+          <p>
+            Induction
+          </p>
+        </li>
+        <li>
+          <title>Week 8</title>
+          <p>
+            Recursion
+          </p>
+        </li>
+        <li>
+          <title>Week 9</title>
+          <p>
+            Recursion; Recurrence Relations
+          </p>
+        </li>
+        <li>
+          <title>Spring Break</title>
+          <p>
+            March 22<ndash/>30, 2025
+          </p>
+        </li>
+        <li>
+          <title>Week 10</title>
+          <p>
+            Relations and digraphs
+          </p>
+        </li>
+        <li>
+          <title>Week 11</title>
+          <p>
+            Couting and <alert>Test II on Wednesday, April 9 (7:30<ndash/>9pm)</alert>
+          </p>
+        </li>
+        <li>
+          <title>Week 12</title>
+          <p>
+            Counting; Graphs
+          </p>
+        </li>
+        <li>
+          <title>Week 13</title>
+          <p>
+            Graphs
+          </p>
+        </li>
+        <li>
+          <title>Week 14</title>
+          <p>
+            Trees
+          </p>
+        </li>
+        <li>
+          <title>Final Exam</title>
+          <p>
+            <alert>Tuesday, May 6 (5:05<ndash/>7:05pm)</alert>
+          </p>
+        </li>
+      </dl>
+    </p>
+    <p>
+      Note that class will meet as scheduled during the weeks of the two tests in addition to meeting on Wednesday evening for the test.
+    </p>
+  </section>
+  <section xml:id="sec-inst-statements">
+    <title>Institutional Syllabus Statements</title>
+    <p>
+      The following statements from the institution all apply in this course:
+      <ul>
+        <li>
+          <p>
+            Academic Calendar &#x26; Religious Observances
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Academic Integrity
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Statement Accommodations for Students with Disabilities
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Course Evaluations
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Diversity &#x26; Inclusion Statement
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Mental Health and Well-Being Statement
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Privacy of Student Records &#x26; the Use of Audio Recorded Lectures Statement
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Students<rsq/> Rules, Rights &#x26; Responsibilities, and
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Teaching &#x26; Learning Data Transparency Statement
+          </p>
+        </li>
+      </ul>
+      The full text of all of these statements can be found in <url href="https://guide.wisc.edu/courses/#syllabustext" visual="guide.wisc.edu/courses/#syllabustext">the Guide</url>.
+    </p>
+  </section>
+  </article>
+</pretext>
