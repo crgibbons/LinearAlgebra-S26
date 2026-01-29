@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="hw-hw04">
+            <title>Chapter 4 Problems</title>
+
+            <introduction>
+                <p>
+                    These are the homework problems for Chapter 3. For due dates for different sections of the book, see Blackboard.
+                </p>
+            </introduction>
+
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 4.2: 2, 4, 7, 9, 22, 16, 18
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 4.3: 4, 6, 30, 31
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 4.4: 3, 5, 8, 12, 18, 19
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 4.5: 
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 4.6: 
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 4.7: 
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 4.8: 
+                    </p>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>

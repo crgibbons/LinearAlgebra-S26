@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="hw-hw02">
+            <title>Chapter 2 Homework Problems.</title>
+
+            <introduction>
+                <p>
+                    These are the homework problems for Chapter 2. For due dates for different sections of the book, see Blackboard.
+                </p>
+            </introduction>
+
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 2.1: 2, 4, 9, 13, 15
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 2.2: 3, 7, 11, 13 
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 2.3: 4
+                    </p>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>

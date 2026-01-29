@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="homework-chapter1">
+            <title>Chapter 3 Problems</title>
+
+            <introduction>
+                <p>
+                    These are the homework problems for Chapter 3. For due dates for different sections of the book, see Blackboard.
+                </p>
+            </introduction>
+
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 3.1: 5, 7, 11
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 3.2: 4, 9, 24, 28
+                    </p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 3.3: 3, 4, 10, 12
+                    </p>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>

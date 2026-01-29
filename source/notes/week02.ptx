@@ -1,13 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <pretext>
     <article xml:id="notes">
-        <section xml:id="notes-week-02">
-        <title>Week 2</title>
-        <p>
-            This week we covered the following topics in the second week.
-        </p>
 
-        </section>
-    </article>
+<section xml:id="week02">
+  <title>Week 2: Matrix Operations and Theorems</title>
+
+  <subsection xml:id="week02-matrix-addition">
+    <title>Matrix Addition</title>
+
+    <definition>
+      <title>Matrix Addition</title>
+      <p>
+        Let <m>A = [a_{ij}]</m> and <m>B = [b_{ij}]</m> be matrices in
+        <m>M_{m,n}</m>. The <em>sum</em> of <m>A</m> and <m>B</m>,
+        denoted <m>A + B</m>, is the matrix <m>C = [c_{ij}]</m> where
+        <m>c_{ij} = a_{ij} + b_{ij}</m> for all
+        <m>1 \le i \le m</m> and <m>1 \le j \le n</m>.
+      </p>
+    </definition>
+
+    <proposition>
+      <title>Additive Identity</title>
+      <p>
+        Let <m>A \in M_{m,n}</m>, and let <m>Z</m> be the <m>m \times n</m>
+        zero matrix, meaning each entry of <m>Z</m> is zero. Then
+        <m>A + Z = Z + A = A</m>.
+      </p>
+    </proposition>
+
+    <proof>
+      <p>
+        For all <m>i</m> and <m>j</m>,
+        <m>[A + Z]_{ij} = a_{ij} + 0 = a_{ij}</m>.
+        By definition of matrix equality, <m>A + Z = A</m>.
+        The argument for <m>Z + A</m> is identical.
+      </p>
+    </proof>
+
+    <remark>
+      <p>
+        These properties should feel familiar: matrix addition behaves
+        exactly like addition of real numbers.
+      </p>
+      <p>
+        One guiding principle of linear algebra is that we want matrices
+        to behave like numbers whenever possible. When they fail to do so,
+        that failure usually signals something important.
+      </p>
+    </remark>
+
+    <remark>
+      <p>
+        Every matrix has an additive inverse, but this is not true for
+        multiplicative inverses. We're going to get into that more, and more, and more...
+      </p>
+    </remark>
+  </subsection>
+
+  <subsection xml:id="week01-scalar-multiplication">
+    <title>Scalar Multiplication and Linear Combinations</title>
+
+    <definition>
+      <title>Scalar Multiplication</title>
+      <p>
+        Let <m>A = [a_{ij}] \in M_{m,n}</m> and let <m>r \in \mathbb{R}</m>.
+        The <em>scalar multiple</em> of <m>A</m> by <m>r</m>,
+        denoted <m>rA</m>, is the matrix <m>C = [c_{ij}]</m> where
+        <m>c_{ij} = r a_{ij}</m>.
+      </p>
+    </definition>
+
+    <example>
+      <p>Compute <m>5A + B</m>, where</p>
+      <m>
+        A = \begin{bmatrix} 0 &amp; 2 \\ 3 &amp; 1 \end{bmatrix},
+        \quad
+        B = \begin{bmatrix} 1 &amp; -2 \\ 2 &amp; 0 \end{bmatrix}.
+      </m>
+    </example>
+
+    <definition>
+      <title>Linear Combination</title>
+      <p>
+        Given matrices <m>A_1, \dots, A_k \in M_{m,n}</m> and scalars
+        <m>c_1, \dots, c_k \in \mathbb{R}</m>, the matrix
+        <m>\sum_{i=1}^k c_i A_i</m> is called a
+        <em>linear combination</em> of the matrices
+        <m>A_1, \dots, A_k</m>.
+      </p>
+    </definition>
+
+    <remark>
+      <p>
+        Linear combinations are one of the most important ideas in this course.
+        We will return to them again and again, in many different disguises.
+      </p>
+      <p>
+        Whenever you see an expression like
+        <m>c_1A_1 + \cdots + c_kA_k</m>, mentally translate it as
+        “a weighted sum.”
+      </p>
+    </remark>
+  </subsection>
+
+  <subsection xml:id="week01-algebraic-properties">
+    <title>Algebraic Properties of Matrix Operations</title>
+
+    <theorem>
+      <title>Properties of Matrix Addition</title>
+      <p>Let <m>A,B,C \in M_{m,n}</m>. Then:</p>
+      <ul>
+        <li><p><m>A + B = B + A</m></p></li>
+        <li><p><m>(A+B)+C = A+(B+C)</m></p></li>
+        <li><p>There exists a unique additive identity <m>Z</m></p></li>
+        <li><p>Each matrix <m>A</m> has a unique additive inverse <m>-A</m></p></li>
+      </ul>
+    </theorem>
+
+    <theorem>
+      <title>Properties of Scalar Multiplication</title>
+      <p>For all <m>A,B \in M_{m,n}</m> and <m>r,s \in \mathbb{R},</m></p>
+      <ul>
+        <li><p><m>r(sA) = (rs)A</m></p></li>
+        <li><p><m>(r+s)A = rA + sA</m></p></li>
+        <li><p><m>r(A+B) = rA + rB</m></p></li>
+      </ul>
+    </theorem>
+
+    <theorem>
+      <title>Properties of Matrix Multiplication</title>
+      <p> For all matrices <m>A,B,C</m> of appropriate sizes,</p>
+      <ul>
+        <li><p><m>(AB)C = A(BC)</m></p></li>
+        <li><p><m>(A+B)C = AC + BC</m></p></li>
+        <li><p><m>A(B+C) = AB + AC</m></p></li>
+        <li>
+          <p>
+            There exist identity matrices <m>I_m</m> and <m>I_n</m>
+            such that <m>I_mA = A = AI_n</m>.
+          </p>
+        </li>
+      </ul>
+    </theorem>
+
+    <remark>
+      <p>
+        Matrix multiplication is generally <em>not commutative</em>.
+        Order matters, and we must pay attention to it.
+      </p>
+    </remark>
+  </subsection>
+
+  <subsection xml:id="week01-mvp">
+    <title>Matrix–Vector Products and Linear Systems</title>
+
+    <theorem>
+      <title>Consistency and Linear Combinations</title>
+      <p>
+        A linear system <m>A\mathbf{x} = B</m> is consistent if and only if
+        <m>B</m> can be expressed as a linear combination of the columns of <m>A</m>.
+      </p>
+    </theorem>
+
+    <proof>
+      <p>
+        If <m>A\mathbf{x} = B</m> has a solution <m>\mathbf{x} = [c_j]</m>, then
+        <m>B = \sum_j c_j \operatorname{col}_j(A)</m>.
+        Conversely, any such linear combination defines a solution.
+      </p>
+    </proof>
+
+    <remark>
+      <p>
+        This theorem provides a powerful translation:
+        solving equations is equivalent to building vectors from columns.
+      </p>
+      <p>
+        We will repeatedly use this shift in perspective!
+      </p>
+    </remark>
+  </subsection>
+
+  <subsection xml:id="week01-inverses">
+    <title>Matrix Inverses</title>
+
+    <definition>
+      <title>Matrix Inverse</title>
+      <p>
+        Let <m>A \in M_{n,n}</m>. If there exists a matrix <m>B</m> such that
+        <m>AB = BA = I_n</m>, then <m>B</m> is called the
+        <em>inverse</em> of <m>A</m>. We will prove that the inverse is unique, and that means we can write it <m>A^{-1}</m> unambiguously (when it exists).
+      </p>
+    </definition>
+
+    <remark>
+      <p>
+        Multiplicative inverses are much rarer than additive inverses.
+        Understanding when they exist is one of the central goals of the course.
+      </p>
+    </remark>
+
+    <example>
+      <p>
+        The matrix
+        <me>A = \begin{bmatrix} 2 &amp; 5 \\ 1 &amp; 3 \end{bmatrix}</me>
+        has inverse
+        <me>A^{-1} = \begin{bmatrix} 3 &amp; -5 \\ -1 &amp; 2 \end{bmatrix}</me>.
+      </p>
+      <p> This makes it easy to solve <m>A\mathbf{x} = B</m>; indeed, using the defition of the multiplicative inverse of <m>A</m> and the associativity of matrix multiplication, we find 
+      <me>
+        \begin{align*}
+        \mathbf{x} &amp; = I_2 \mathbf{x} \\
+        &amp;= (A^{-1}A)\mathbf{x} \\
+        &amp;= A^{-1}(A\mathbf{x}) \\
+        &amp;= A^{-1}B.
+        \end{align*}
+      </me>
+    </p>
+    </example>
+
+    <definition>
+      <title>Singular Matrix</title>
+      <p>
+        A square matrix that does not have an inverse is called
+        <em>singular</em>.
+      </p>
+    </definition>
+
+    <remark>
+      <p>
+        Singular matrices will reappear when we study determinants
+        and linear dependence!
+      </p>
+    </remark>
+  </subsection>
+</section>
+</article>
 </pretext>

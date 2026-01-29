@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx" />
+  <article xml:id="sec-section-name" >
+    <title>In-Class Activities</title>
+    <xi:include href="./frontmatter.ptx" />
+
+    <introduction>
+      <p>
+        Homework problems be chapter.
+      </p>
+      <p>
+        If you are reviewing these materials outside of class, you can post to the course Zulip for help, too.
+      </p>
+    </introduction>
+
+    
+    <!-- The xpointer="activity-magic-beans" says to only include the element with id "activity-magic-beans".  This is how we can have a standalone file and also include it here -->
+<!--     <xi:include href="./activities/magic-beans.ptx" xpointer="activity-magic-beans" />
+    <xi:include href="./activities/magic-beans-too.ptx" xpointer="activity-magic-beans-too" /> -->
+    <xi:include href="./homework/hw01.ptx" xpointer="hw-hw01" />
+    <xi:include href="./homework/hw0L.ptx" xpointer="hw-hw0L" />   
+    <xi:include href="./homework/hw02.ptx" xpointer="hw-hw02" />
+
+    <!-- Add more xi:include files here to include them in the main course -->
+    <!--     <solutions worksheet="hint solution">
+    <title>Solutions</title>
+    </solutions> -->
+  </article>
+</pretext>
