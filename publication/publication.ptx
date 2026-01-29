@@ -96,7 +96,12 @@
       <!--<page right-alignment="flush" bottom-alignment="ragged" crop-marks="letter"/>-->
 
     <!-- Add content to \geometry{}: -->
-      <!--<geometry></geometry>-->
+      
+      <geometry>
+        margin="1in"
+        includehead
+        includefoot
+      </geometry>
 
     <!-- The asymptote/@links set to "yes" would produce  -->
     <!-- links the html version of asymptote graphics.    -->
@@ -106,6 +111,9 @@
       <!--<covers front="cover-front.pdf" back="cover-back.pdf" />-->
     <!-- Set @formatted to "no" to remove formatting on worksheets: -->
       <!--<worksheets formatted="yes" />-->
+  
+  <solutions>appendix</solutions>
+
   </latex>
 
   <html embed-button="yes">

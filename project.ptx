@@ -15,6 +15,16 @@
     <target name="activities-print" format="pdf" source="activities.ptx"
             output-filename="activities.pdf" publication="publication.ptx" />
 
+    <target name="quizzes-web" format="html" source="quizzes.ptx"
+            publication="publication.ptx" deploy-dir="quizzes" />
+    <target name="quizzes-print" format="pdf" source="quizzes.ptx"
+            output-filename="quizzes.pdf" publication="publication.ptx" />
+
+    <target name="homework-web" format="html" source="homework.ptx"
+            publication="publication.ptx" deploy-dir="homework" />
+    <target name="homework-print" format="pdf" source="homework.ptx"
+            output-filename="homework.pdf" publication="publication.ptx" />
+
     <target name="notes-web" format="html" source="notes.ptx"
             publication="publication.ptx" deploy-dir="notes" />
     <target name="notes-print" format="pdf" source="notes.ptx"

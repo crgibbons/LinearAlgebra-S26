@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="quiz-01">
+            <title>Quiz 1: Matrix Operations</title>
+
+            <introduction>
+                <p>
+                    You will have 2-3 minutes to answer these on your own. Then your team will have 5-6 minutes to answer them as a team.
+                </p>
+                <p>
+                    Your individiual grade, out of ten points, includes 1 point for being present and 1.5 points for each correct answer (individual or team).
+                </p>
+
+                <p>For the following three questions, select <em>A</em> for yes, <em>B</em> for no, or <em>C</em> if you really have no idea.</p>
+            </introduction>
+
+            <exercise workspace="2in">
+                <statement>
+                        <p>
+                        Every matrix satisfies <m>A = A^T</m>.
+                        </p>
+</statement>
+</exercise>
+
+<exercise workspace="2in">
+    <statement>
+                        <p>This is true:
+                             <me>
+                                    \begin{bmatrix} 1 &amp; 2 &amp; 0 \\ -1 &amp; \pi &amp; \frac{1}{2} \end{bmatrix} \begin{bmatrix} \sqrt{2} \\ \sqrt{3} \\ 2 \end{bmatrix} = \sqrt{2}\begin{bmatrix} 1 \\ -1 \end{bmatrix} + \sqrt{3} \begin{bmatrix} 2 \\ \pi \end{bmatrix} + 2 \begin{bmatrix} 0 \\ \frac{1}{2}\end{bmatrix}
+                                </me>
+                            </p>
+</statement>
+</exercise>
+
+<exercise workspace="2in">
+    <statement>
+                            <p>
+                                The additive inverse of <m>\begin{bmatrix} 1 &amp; 2 &amp; 0 \\ -1 &amp; \pi &amp; \frac{1}{2} \end{bmatrix}</m> is <m>\begin{bmatrix} -1 &amp; -2 &amp; 0 \\ 1 &amp; -\pi &amp; -\frac{1}{2} \end{bmatrix}</m>
+                            </p>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>

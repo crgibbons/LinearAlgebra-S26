@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1.25cm" xml:id="activity-wkst_1-1_1-3">
+            <title>Group Excercises, Chapter 1, Sections 1-3</title>
+            <introduction>
+                <p>
+                    We'll review some of the basic concepts from Chapter 1, sections 1-3 in groups, with some exercises to turn in.
+                </p>
+            </introduction>
+
+            <paragraphs xml:id="1-1_read-q">
+                <title>Exploring Linear Systems</title>
+                <introduction>
+                    <p>
+                      For each of the following prompts, first try to construct an example (or decide that one cannot exist). Then reflect on what the question reveals about linear systems. Use vocabulary from the chapter in your reflections.
+                    </p>
+                  </introduction>
+
+                <exercise>
+                <title>Try These!</title>
+                <statement>
+                    <ol>
+                        <p>
+                            Write down an inconsistent linear system in two unknowns.
+                        </p>
+                        <li>
+                          <p>
+                            Write down an inconsistent <em>homogeneous</em> linear system in two unknowns, or explain why this is impossible.
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            Find the solution(s) to the linear system, if any exist.
+                          </p>
+                          <md>
+                            <mrow> x + 4y \amp = 12 </mrow>
+                            <mrow> 3x + 8y \amp = 4 </mrow>
+                          </md>
+                        </li>
+                        <li>
+                          <p>
+                            Write down a nonhomogeneous linear system with the trivial solution, or explain why this is impossible.
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            Write down a linear system with three equations that is equivalent to the system below.
+                          </p>
+                          <md>
+                            <mrow> x + 4y \amp = 12 </mrow>
+                            <mrow> 3x + 8y \amp = 4 </mrow>
+                          </md>
+                        </li>
+                        <li>
+                          <p><alert>Turn-In!</alert></p>
+                          <p>
+                            Find <m>a</m> and <m>b</m> so that the linear system below is consistent with infinitely many solutions.
+                          </p>
+                          <md>
+                            <mrow> ax + by \amp = 12 </mrow>
+                            <mrow> 3x + 8y \amp = 4 </mrow>
+                          </md>
+                        </li>
+                    </ol>
+                </statement>
+
+                <solution>
+                  <ol>
+
+                    <li>
+                      <p>
+                        One example is
+                      </p>
+                      <md>
+                        <mrow> x + y \amp = 1 </mrow>
+                        <mrow> x + y \amp = 2 </mrow>
+                      </md>
+                      <p>
+                        which is inconsistent because the two equations contradict one another.
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        No such system exists. Every homogeneous linear system has the trivial
+                        solution, so it can never be inconsistent.
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        Solving the system gives the unique solution
+                      </p>
+                      <md>
+                        (x, y) = (-4, 4).
+                      </md>
+                    </li>
+
+                    <li>
+                      <p>
+                        No such system exists. The trivial solution cannot satisfy a nonhomogeneous system.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        One equivalent system is obtained by adding a redundant equation, such as
+                      </p>
+                      <md>
+                        <mrow> x + 4y \amp = 12 </mrow>
+                        <mrow> 3x + 8y \amp = 4 </mrow>
+                        <mrow> 4x + 12y \amp = 16 </mrow>
+                      </md>
+                    </li>
+                  </ol>
+                </solution>
+            </exercise>
+
+                <!-- REFLECT -->
+                <exercise>
+                    <title>Reflect</title>
+                    <statement>
+                      <p>
+                        Which of these questions ask for a specific example, and which are really asking you to think about what <em>must</em> be true of certain kinds of linear systems? What properties distinguish homogeneous and nonhomogeneous systems?
+                      </p>
+
+                      <p>
+                        Is it possible for a linear system to have exactly three solutions? Why or why not?
+                      </p>
+                    </statement>
+
+                    <solution>
+                      <p>
+                        Homogeneous systems by definition are linear expressions (like <m>ax+by</m>, without a constant term) set equal to zero. You can tell if a system is homogeneous by checking if setting all the variables equal to zero is a solution. This is because setting all the variables equal to zero makes the left size zero, and the only way for there to be an equality is if the right side is also zero.
+                    </p>
+
+                    <p>
+                      Linear systems have one, zero, or infintely many solutions. This is a mathematical statement that we will prove later the course, but for right now, you can think about the way lines and planes can be arranged. A line can intersect another line at one point, or they can miss each other completely if they're parallel, or they can plot the exact same (infinitely many) points.
+                    </p>
+
+                    </solution>
+                </exercise>
+
+                <exercise>
+                    <title>Computation Questions.</title>
+                    <statement>
+                        <p><alert>Turn-In!</alert></p>
+                        <p>
+                            For each linear system below, solve using the method of elimination to find its solutions or show that it has no solutions.
+                        </p>
+                        <p> First system. </p>
+                                <md>
+                                    <mrow>3x + 4y- z \amp = 8 </mrow>
+                                    <mrow>6x + 8y - 2z \amp= 3 </mrow>
+                                </md>
+                        <p>Second system. </p>
+                                <md>
+                                    <mrow> x + y \amp = 1</mrow>
+                                    <mrow> 2x - y \amp = 5 </mrow>
+                                    <mrow> 3x + 4y \amp = 2</mrow>
+                                </md>
+                        <p>Third system.</p>
+                                <md>
+                                    <mrow>2x - y \amp = 5 </mrow>
+                                    <mrow>4x -2y \amp = t </mrow>
+                                </md>
+                                <p>
+                                    where <m>t</m> is any real number. For what value(s) of <m>t</m> is the system consistent? For what value(s) of <m>t</m> is the system inconsistent?
+                                </p>
+                    </statement>
+                    <solution>
+                      <p>First system: If we try to eliminate <m>x</m> by multiplying the first equation by <m>-2</m> and adding this to the second equation, we arrive at the false statement <m>0 = -13</m>. This system is therefore inconclusive. (Geometrically, these represent parallel planes in space!)
+                      </p>
+                      <p>Second system:
+                        Eliminate <m>x</m> in the second equation using the first equation to arrive at the equivalent system
+                      </p>
+                      <md> 
+                        <mrow>x + y \amp = 1 </mrow>
+                        <mrow>-3y \amp = 3</mrow>
+                        <mrow>3x + 4y \amp = 5</mrow>
+                      </md>
+                      <p>We can make an equivalent system by scaling the second equation to make our lives easier.</p>
+                      <md>
+                        <mrow>x + y \amp = 1 </mrow>
+                        <mrow>y \amp = -1</mrow>
+                        <mrow>3x + 4y \amp = 5</mrow>
+                      </md>
+                      <p> Now eliminate <m>y</m> from the first equation using the (new) second equation</p>
+                      <md> 
+                        <mrow>x \amp = 2 </mrow>
+                        <mrow>y \amp = -1</mrow>
+                        <mrow>3x + 4y \amp = 5</mrow>
+                      </md>
+                      <p> 
+                        We check to see if <m>(2,-1)</m> is a solution to the final equation, but <m>3\cdot 2 - 4 \cdot 1 = 2 \neq 5</m>, so the system is inconsistent.
+                      </p>
+                      <p>Third system: if we try to eliminate variables, we end up with <m>2x - y = 5</m> and <m>0 = t-10</m>. For this system to be consistent, we must have <m>t = 10</m>, and then there are infinitely many solutions</p> 
+                      <me>\left\{ \left(x,2x-5\right)\, \colon \, x \in \RR\right\}</me>
+                      <p>
+                      (i.e., the points on the line <m>y = 2x-5</m>).
+                     </p>
+                    </solution>
+                </exercise>
+
+                <exercise>
+                    <title>Special Forms.</title>
+                    <statement>
+                        <p> 
+                            For each linear system below, try to solve <em>without</em> using the method of elimination.
+                        </p>
+                        <p>First system.</p>
+                                <md>
+                                        <mrow>2x +  y - 2z \amp = -5 </mrow>
+                                        <mrow> 3y + 2z \amp= 7 </mrow>
+                                        <mrow> z \amp= 4</mrow> 
+                                    </md>
+                        <p>Second system.</p>
+                                    <md>
+                                        <mrow> 4x  \amp = 8</mrow>
+                                        <mrow> -2x - 3y \amp = -1 </mrow>
+                                        <mrow> 3x + 5y - 2z \amp = 11</mrow>
+                                    </md>
+                    </statement>
+
+                    <solution>
+                      <p> 
+                        These are examples of substitution problems. In the first system, <m>z = 4</m> implies <m>3y + 8 = 7</m> which lets us solve <m>y = -\frac{1}{3}</m>, and the values for <m>y</m> and <m>z</m> let us solve for the value of <m>x</m> in the first equation of the system. Similarly, we can substitute <m>x</m> to solve for <m>y</m>, and then for <m>x</m> and <m>y</m> to solve for <m>z</m>.
+                      </p>
+                    </solution>
+                </exercise>
+            </paragraphs>
+
+            <paragraphs>
+            <title>Adding Matrices and Scaling Matrices.</title>
+                <introduction>
+                    <p>
+                        In Section 2, we see the definition of an <m>m \times n</m> matrix with entries <m>a_{i,j}</m> for <m>1 \le i \le m</m> and <m>1 \le j \le n</m>:</p>
+                    <me>
+                        A = 
+                        \begin{bmatrix}
+                        a_{1,1} \amp a_{1,2} \amp \cdots \amp a_{1,n} \\
+                        a_{2,1} \amp a_{2,2} \amp \cdots \amp a_{2,n} \\
+                        \vdots  \amp \vdots  \amp \ddots \amp \vdots  \\
+                        a_{m, 1} \amp a_{m, 2} \amp \cdots \amp a_{m, n}
+                        \end{bmatrix} = \left[a_{i,j}\right] \in M_{m\times n}.
+                    </me>
+                    <p> 
+                        This matrix has <m> m</m> rows and <m>n</m> columns, and <m>M_{m \times n}</m> is the shorthand for the set of all such matrices (we're defaulting to real entries now).
+                    </p>
+                  </introduction>  
+
+                  <exercise>
+                    <title>True or False?</title>
+                    <statement>
+                      <p>Determine whether each statement is true or false.</p>
+
+                      <ol>
+                        <li>
+                          <p>
+                            It is possible that
+                          </p>
+                          <me>
+                            \begin{bmatrix}
+                              a \amp b \amp c \\
+                              d \amp e \amp f
+                            \end{bmatrix}
+                            =
+                            \begin{bmatrix}
+                              g \amp h \\
+                              k \amp \ell
+                            \end{bmatrix}.
+                          </me>
+                        </li>
+
+                        <li>
+                          <p>
+                            The matrices below are equal.
+                          </p>
+                          <me>
+                            \begin{bmatrix}
+                              1 \amp 2 \\
+                              3 \amp 4
+                            \end{bmatrix}
+                            =
+                            \begin{bmatrix}
+                              5^0 \amp 6/3 \\
+                              4 - 1 \amp 2^2
+                            \end{bmatrix}.
+                          </me>
+                        </li>
+
+                        <li>
+                          <p>
+                            There exist real numbers <m>a</m> and <m>b</m> such that
+                          </p>
+                          <me>
+                            \begin{bmatrix}
+                              a \amp b \\
+                              b \amp a
+                            \end{bmatrix}
+                            =
+                            \begin{bmatrix}
+                              1 \amp 2 \\
+                              2 \amp 1
+                            \end{bmatrix}.
+                          </me>
+                        </li>
+
+                        <li>
+                          <p>
+                            There exists a real number <m>x</m> such that
+                          </p>
+                          <me>
+                            \begin{bmatrix}
+                              x \amp 1 \\
+                              2 \amp 3
+                            \end{bmatrix}
+                            =
+                            \begin{bmatrix}
+                              4 \amp 1 \\
+                              2 \amp x
+                            \end{bmatrix}.
+                          </me>
+                        </li>
+                      </ol>
+                    </statement>
+
+                    <solution>
+                      <ol>
+                        <li>
+                          <p>
+                            <em>False.</em> The first matrix is <m>2 \times 3</m> while the second
+                            matrix is <m>2 \times 2</m>. Matrices of different dimensions cannot
+                            be equal.
+                          </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            <em>True.</em> Simplifying the entries gives
+                          </p>
+                          <me>
+                            \begin{bmatrix}
+                              1 \amp 2 \\
+                              3 \amp 4
+                            \end{bmatrix},
+                          </me>
+                          <p>
+                            so the matrices are equal entry by entry.
+                          </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            <em>True.</em> Taking <m>a = 1</m> and <m>b = 2</m> makes the matrices
+                            equal.
+                          </p>
+                        </li>
+
+                        <li>
+                          <p>
+                            <em>False.</em> Equality would require <m>x = 4</m> from the
+                            top-left entries and <m>x = 3</m> from the bottom-right entries,
+                            which is impossible.
+                          </p>
+                        </li>
+                      </ol>
+                    </solution>
+                  </exercise>
+
+                  <exercise>
+                    <title>Isolating Rows and Columns</title>
+                    <statement>
+                        <p>
+                        Sometimes it's helpful to talk about a row or column of a matrix instead of the whole thing. Fill out the entries for the following based on the matrix <m>A</m> above. A row is sometimes called a <term>row vector</term> and a column is sometimes called a <term>column vector</term>. In this class, if we say <q>vector</q>, we (almost always) mean a column vector.
+                        </p>
+
+                        <me>
+                            \mathrm{row}_i(A) = \left[ \qquad \qquad \qquad \qquad \right]
+                        </me>
+                        <p> and </p>
+                        <me>
+                            \mathrm{col}_j(A) = \begin{bmatrix} \phantom{a_{ij}}  \\ \phantom{a_{ij}}  \\\phantom{a_{ij}}  \\\phantom{a_{ij}} \end{bmatrix}
+                        </me>
+                    </statement>
+
+                    <solution>
+                      <me>\mathrm{row}_i(A) = \left[a_{i,1} \, a_{i,2} \, \cdots \, a_{i,n}\right]
+                      </me>
+                      and 
+                        <me>
+                            \mathrm{col}_j(A) = \begin{bmatrix} 
+                            a_{1,j}  \\ a_{2,j}  \\ \vdots  \\ a_{m,j}} \end{bmatrix}
+                        </me>
+                    </solution>
+                </exercise>
+            </paragraphs>
+
+            <p> 
+                This is a good time to review the definitions of matrix addition (<q>entrywise</q> is how people talk about this sometimes), scalar multiplication, and subtraction (a combination of addition and multiplication, if you like), and transposes. What does it mean to be a zero matrix from the point of view of matrix addition? Can a matrix have an additive inverse?
+            </p>
+
+            <theorem> 
+                <title>Existence of the Additive Identity</title>
+                <statement>
+                    <p>
+                        The <m>m \times n</m> matrix of all zeros, <m>Z</m>, is the additive identity for the set of <m>m \times n</m> matrices.
+                    </p>
+                    <p> 
+                        That is for each <m>A \in M_{m \times n}</m>,
+                    </p>
+                    <me>
+                        A + Z = Z + A = A.
+                    </me>
+                </statement>
+
+                <proof> 
+                    <p>
+                        Let <m>m, n</m> be positive integers. Assume <m> A \in M_{m\times n}</m>, and assume <m>Z \in M_{m \times n}</m> is the matrix of all zeros.
+                    </p>
+                    <p>
+                        <em>
+                          Try find a way to use the definition of addition to get to the end of the proof (the next line). Since matrix equality happens at the entry level, you will probably have define <m>A = [a_{i,j}]</m> and <m>Z = [z_{i,j}]</m> for all <m>1 \le i \le m</m>, <m>1 \le j \le n</m>, and note that <m>z_{i,j} = 0</m> for each entry. Now use the definition of addition: what is the <m>i,j</m>-th entry of <m>A+Z</m>?
+                        </em>
+                    </p>
+                    <p> 
+                        Therefore, <m>A + Z = Z + A = A</m>.
+                    </p>
+              </proof>
+            </theorem>
+
+            <p>
+                Is <m>Z^T = Z</m>? How would you prove it?
+                <br /><br />
+
+                <em>Unless <m>Z</m> is square, <m>Z</m> and <m>Z^T</m> have different sizes so they can't be equal. If <m>Z</m> is square (same number of rows and columns), then <m>Z</m> and <m>Z^T</m> have the same sizes and the same entries (all zeros), so they are equal.</em>
+            </p>
+
+            <p> 
+                Once you work those questions out, talk about the defintion of <em>matrix multiplication</em>. That is, explain why the following is the definition; what is the point of defining matrix multiplication this way? Probably has something to do with linear systems, right?
+            </p>
+
+            <me> 
+                \begin{bmatrix}
+                  a \amp b \amp c \\
+                  d \amp e \amp f 
+                \end{bmatrix}
+                \begin{bmatrix}
+                  x \\
+                  y \\
+                  z
+                \end{bmatrix} = \begin{bmatrix} ax + by + cz \\ dx + ey + fz \end{bmatrix}
+            </me>
+
+
+  <paragraphs xml:id="matrix-operations-practice">
+  <title>Practice: Matrix Operations</title>
+
+  <introduction>
+    <p>
+      In Sections 2 and 3 we saw how the basic operations on matrices are
+      defined. Let’s practice a few examples involving addition, scalar
+      multiplication, transposes, and matrix multiplication.
+    </p>
+  </introduction>
+
+  <exercise>
+    <title>Matrix Operations</title>
+    <statement>
+      <ol>
+
+        <!-- ADDITION -->
+        <li>
+          <p>Add the matrices below.</p>
+          <me>
+            \begin{bmatrix}
+              1 \amp -2 \\
+              3 \amp 4
+            \end{bmatrix}
+            +
+            \begin{bmatrix}
+              5 \amp 6 \\
+              -1 \amp 2
+            \end{bmatrix}
+          </me>
+        </li>
+
+        <li>
+          <p>
+            Decide whether the following sum is defined. If it is, compute it.
+          </p>
+          <me>
+            \begin{bmatrix}
+              1 \amp 2 \amp 3 \\
+              4 \amp 5 \amp 6
+            \end{bmatrix}
+            +
+            \begin{bmatrix}
+              7 \amp 8 \\
+              9 \amp 10
+            \end{bmatrix}
+          </me>
+        </li>
+
+        <!-- SCALAR MULTIPLICATION -->
+        <li>
+          <p>
+            Compute the scalar multiple below.
+          </p>
+          <me>
+            3
+            \begin{bmatrix}
+              -1 \amp 2 \\
+              0 \amp 5
+            \end{bmatrix}
+          </me>
+        </li>
+
+        <li>
+          <p>
+            Simplify the expression below.
+          </p>
+          <me>
+            -\tfrac{1}{2}
+            \begin{bmatrix}
+              4 \amp -6 \\
+              -2 \amp 8
+            \end{bmatrix}
+          </me>
+        </li>
+
+        <!-- MULTIPLICATION -->
+        <li>
+          <p>Compute the product below, if it is defined.</p>
+          <me>
+            \begin{bmatrix}
+              1 \amp 2 \\
+              3 \amp 4
+            \end{bmatrix}
+            \begin{bmatrix}
+              0 \amp 1 \\
+              -1 \amp 2
+            \end{bmatrix}
+          </me>
+        </li>
+
+        <li>
+          <p>
+            Decide whether the following product is defined. If it is, compute it.
+          </p>
+          <me>
+            \begin{bmatrix}
+              1 \amp 2 \amp 3
+            \end{bmatrix}
+            \begin{bmatrix}
+              4 \\
+              5 \\
+              6
+            \end{bmatrix}
+          </me>
+        </li>
+
+        <li><p><alert>Turn-In!</alert></p>
+            <p> What does the matrix multiplication below represent?</p>
+            <me>
+            \begin{bmatrix}
+                  1 \amp 3 \amp 2 \\
+                  -1 \amp 9 \amp 0 
+                \end{bmatrix}
+                \begin{bmatrix}
+                  x \\
+                  y \\
+                  z
+                \end{bmatrix} = \begin{bmatrix} 3 \\ -2 \end{bmatrix}
+            </me>
+        </li>
+      </ol>
+    </statement>
+    <solution>
+      <ol>
+        <li>
+          <p>
+            The matrices have the same dimensions, so addition is defined.
+            Adding entry by entry gives
+          </p>
+          <me>
+            \begin{bmatrix}
+              6 \amp 4 \\
+              2 \amp 6
+            \end{bmatrix}.
+          </me>
+        </li>
+
+        <li>
+          <p>
+            This sum is not defined. The first matrix is <m>2 \times 3</m>
+            while the second matrix is <m>2 \times 2</m>. Matrices must have
+            the same dimensions in order to be added.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Multiply each entry of the matrix by <m>3</m> to obtain
+          </p>
+          <me>
+            \begin{bmatrix}
+              -3 \amp 6 \\
+              0 \amp 15
+            \end{bmatrix}.
+          </me>
+        </li>
+
+        <li>
+          <p>
+            Distributing the scalar <m>-\tfrac{1}{2}</m> gives
+          </p>
+          <me>
+            \begin{bmatrix}
+              -2 \amp 3 \\
+              1 \amp -4
+            \end{bmatrix}.
+          </me>
+        </li>
+
+        <li>
+          <p>
+            The product is defined, since both matrices are <m>2 \times 2</m>.
+            Computing the product gives
+          </p>
+          <me>
+            \begin{bmatrix}
+              -2 \amp 5 \\
+              -4 \amp 11
+            \end{bmatrix}.
+          </me>
+        </li>
+
+        <li>
+          <p>
+            The product is defined. A <m>1 \times 3</m> matrix multiplied by
+            a <m>3 \times 1</m> matrix produces a <m>1 \times 1</m> matrix.
+            The result is
+          </p>
+          <me>
+            \begin{bmatrix}
+              32
+            \end{bmatrix}.
+          </me>
+        </li>
+        <li> <p> A linear system of two equations in three variables! </p>
+        <md>
+          <mrow>x +3y + 2z \amp = 3 </mrow>
+          <mrow> -x +9y+0z \amp = -2</mrow>
+        </md> 
+        </li>
+      </ol>
+    </solution>
+  </exercise>
+</paragraphs>
+
+<section xml:id="example-matrix-products">
+  <title>Which Matrix Products Are Well-Defined?</title>
+
+  <introduction>
+    <p>
+      Consider the matrices below.
+    </p>
+
+    <me>
+      A =
+      \begin{bmatrix}
+        2 \amp 1 \amp 0 \\
+        -1 \amp 0 \amp 3
+      \end{bmatrix},
+      \qquad
+      B =
+      \begin{bmatrix}
+        1 \amp 3 \\
+        -2 \amp 0 \\
+        4 \amp -4
+      \end{bmatrix},
+      \qquad
+      C =
+      \begin{bmatrix}
+        a \amp 0 \\
+        0 \amp b
+      \end{bmatrix}.
+    </me>
+  </introduction>
+
+  <exercise>
+    <statement>
+      <p>
+        Determine which of the following matrix products are
+        <em>well-defined</em>. If a product is well-defined, compute it.
+        If it is not, explain why not.
+      </p>
+
+      <ol>
+        <li><p><m>AB</m></p></li>
+        <li><p><m>BA</m></p></li>
+        <li><p><m>AC</m></p></li>
+        <li><p><m>BC</m></p></li>
+        <li><p><m>CB^T</m></p></li>
+        <li>
+          <p>
+            <m>C^2 = CC</m>
+            (Do you have any conjectures about <m>C^n</m>?)
+          </p>
+        </li>
+        <li><p><m>(AB)C</m></p></li>
+        <li><p><m>A(BC)</m></p></li>
+      </ol>
+    </statement>
+
+    <solution>
+      <ol>
+        <li><p><m>AB</m> is well-defined and the product is <m>3\times 3</m></p></li>
+        <li><p><m>BA</m>is also well-defined but the product is <m>2 \times 2</m></p> (this means <m>AB \neq BA</m>)</li>
+        <li><p><m>AC</m> is not well-defined because <m>A</m> has three columns but <m>C</m> has only two rows</p></li>
+        <li><p><m>BC</m> is well-defined</p></li>
+        <li><p><m>CB^T</m> is well-definied</p></li>
+        <li>
+          <p>
+            <m>C^2 = CC</m>
+            is well-defined and <m>C^n = \begin{bmatrix} a^n \amp 0 \\ 0 \amp b^n\end{bmatrix}</m> (check that you believe this! What's special about <m>C</m>?)
+          </p>
+        </li>
+        <li><p><m>(AB)C</m> is well-defined</p></li>
+        <li><p><m>A(BC)</m> is well-defined and equal to the previous</p></li>
+      </ol>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Based on the previous example, determine whether each statement
+        below is true or false. Justify your answers.
+      </p>
+
+      <ol>
+        <li>
+          <p>
+            <q>Matrix multiplication is <em>commutative</em>.</q>
+            <answer><p>False! We saw <m>AB \neq BA</m> above, and sometimes one is defined while the other is not!</p></answer>
+          </p>
+        </li>
+        <li>
+          <p>
+            <q>Matrix multiplication is <em>associative</em>.</q> <answer><p>True! This will require a proof involving multiplying three matrices together.</p></answer>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+<exercise xml:id="example-mvp-setup">
+  <title>Preparing for the Matrix–Vector Product Theorem</title>
+
+  <introduction>
+    <p>
+      The next theorem is one of the most important tools we will use this
+      semester. Before proving it, we will do some preliminary work to
+      understand why it should be true.
+    </p>
+  </introduction>
+
+  <statement>
+    <p>
+      <em>Theorem (Matrix–Vector Product Theorem, MVP).</em>
+      Let
+    </p>
+
+    <me>
+      A =
+      \begin{bmatrix}
+        a_{i,j}
+      \end{bmatrix}
+      \in M_{m\times n},
+      \qquad
+      \mathbf{x} =
+      \begin{bmatrix}
+        x_1 \\
+        x_2 \\
+        \vdots \\
+        x_n
+      \end{bmatrix}
+      \in M_{n\times 1}.
+    </me>
+
+    <p>
+      Then the product <m>A\mathbf{x}</m> is well-defined, and
+    </p>
+
+    <me>
+      A\mathbf{x} = \sum_{i=1}^n x_i\,\mathrm{col}_i(A).
+    </me>
+  </statement>
+</exercise>
+
+  <exercise>
+    <statement>
+      <p><em>Assumptions:</em></p>
+      <ul>
+        <li><p><m>A \in M_{m\times n}</m></p></li>
+        <li><p><m>\mathbf{x} \in M_{n\times 1}</m></p></li>
+      </ul>
+
+      <p><em>Relevant definitions:</em></p>
+      <ul>
+        <li><p>Matrix multiplication</p></li>
+        <li><p>Linear combinations</p></li>
+        <li><p>Matrix equality</p></li>
+      </ul>
+
+      <p>
+        <em>Goal:</em> Starting from the assumptions and using the relevant
+        definitions, show that
+        <m>A\mathbf{x} = \sum_{i=1}^n x_i \mathrm{col}_i(A)</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="example-mvp-proof">
+  <title>Finishing the Proof of the Matrix–Vector Product Theorem</title>
+    <statement>
+        <p><alert>Turn-In!</alert></p>
+      <p>
+        The proof below is partially completed. Work together to finish it.
+        Be explicit about where each definition is used.
+      </p>
+
+    <proof>
+      <p>
+        By the definition of matrix multiplication, the product
+        <m>A\mathbf{x}</m> is an <m>m \times 1</m> matrix, and
+      </p>
+
+      <me>
+        A\mathbf{x}
+        =
+        \begin{bmatrix}
+          x_1 a_{1,1} \\
+          x_1 a_{2,1} \\
+          \vdots \\
+          x_1 a_{m,1}
+        \end{bmatrix}
+        +
+        \begin{bmatrix}
+          x_2 a_{1,2} \\
+          x_2 a_{2,2} \\
+          \vdots \\
+          x_2 a_{m,2}
+        \end{bmatrix}
+        + \cdots +
+        \begin{bmatrix}
+          x_n a_{1,n} \\
+          x_n a_{2,n} \\
+          \vdots \\
+          x_n a_{m,n}
+        \end{bmatrix}.
+      </me>
+
+      <p>
+        Using the definition of matrix addition, this can be written as
+      </p>
+
+      <me>
+        \sum_{i=1}^n
+        \begin{bmatrix}
+          x_i a_{1,i} \\
+          x_i a_{2,i} \\
+          \vdots \\
+          x_i a_{m,i}
+        \end{bmatrix}.
+      </me>
+
+      <p>
+        By the definition of scalar multiplication, we may factor out
+        <m>x_i</m> from each term, leaving <m>\mathrm{col}_i(A)</m>. Therefore,
+        </p>
+
+      <me>
+        A\mathbf{x} = \sum_{i=1}^n x_i \mathrm{col}_i(A),
+      </me>
+
+      <p>
+        as desired. QED.
+      </p>
+    </proof>
+    </statement>
+  </exercise>
+
+</section>
+
+<section>
+    <title>More Turn-In!</title>
+    <introduction>
+        <p>
+            In addition to the problems marked as <alert>Turn-In</alert> above, you should do the following questions and turn them in with your group on ONE piece of paper with EVERYONE's name. It's okay if you don't quite finish all of these in class.
+        </p>
+        <p> 
+            I recommend trying them outside of class if you don't finish, though you don't need to turn them in.
+        </p>
+    </introduction>
+
+    <dl>
+        <li>
+            <title> Section 1.1 </title>
+            <p>14, 34</p>
+        </li>
+        <li>
+            <title> Section 1.2 </title>
+            <p>
+                4, 6 and 8 (see the description of the matrices before this problem on the previous page), 13 
+            </p>
+        </li>
+        <li>
+            <title> Section 1.3 </title>
+            <p>2, 11, 22, 24</p>
+        </li>
+    </dl>
+</section>
+
+
+
+<!--                 <example>
+                  <title>Examples of Linear Systems</title>
+
+                  <introduction>
+                    <p>
+                      For each of the following, either write down an example or explain
+                      why such an example cannot exist.
+                    </p>
+                  </introduction>
+
+                    <statement>
+                      <ol>
+                        <li>
+                          An inconsistent linear system in two unknowns.
+                        </li>
+                        <li>
+                          An inconsistent <em>homogeneous</em> linear system in two unknowns.
+                        </li>
+                        <li>
+                          A unique solution to the linear system
+                          <md>
+                            x + 4y = 12  
+                            3x + 8y = 4
+                          </md>
+                        </li>
+                        <li>
+                          A nonhomogeneous linear system with the trivial solution.
+                        </li>
+                        <li>
+                          A linear system with three equations that is equivalent to the system
+                          <md>
+                            x + 4y = 12  
+                            3x + 8y = 4
+                          </md>
+                        </li>
+                      </ol>
+                    </statement>
+
+                    <solution>
+                      <ol>
+                        <li>
+                          One example is
+                          <md>
+                            x + y = 1  
+                            x + y = 2
+                          </md>
+                          which is inconsistent since the equations contradict one another.
+                        </li>
+                        <li>
+                          No such system exists. A homogeneous system always has the trivial
+                          solution, so it can never be inconsistent.
+                        </li>
+                        <li>
+                          Solving the system yields the unique solution
+                          <md>
+                            (x, y) = (-4, 4).
+                          </md>
+                        </li>
+                        <li>
+                          No such system exists. The trivial solution cannot satisfy a
+                          nonhomogeneous system.
+                        </li>
+                        <li>
+                          One equivalent system is obtained by adding a redundant equation:
+                          <md>
+                            x + 4y = 12  
+                            3x + 8y = 4  
+                            4x + 12y = 16
+                          </md>
+                        </li>
+                      </ol>
+                    </solution>
+                </example> -->
+
+
+        </worksheet>
+    </article>
+</pretext>
