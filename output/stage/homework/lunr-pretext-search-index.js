@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Chapter 1 Homework Problems.",
-  "body": " Chapter 1 Homework Problems.   These are the homework problems for Chapter 1. For due dates for different sections of the book, see Blackboard.     Section 1.1: 14 and 34      Section 1.2: 4, 6, 8, 13 The matrices for 6 and 8 are described on the previous page.      Section 1.3: 2, 11, 22, 24      Section 1.4: 1, 3, 11, 17      Section 1.5: 4, 9, 11, 14    "
+  "body": " Chapter 1 Homework Problems.   These are the homework problems for Chapter 1. For due dates for different sections of the book, see Blackboard.     Section 1.1: 14 and 34      Section 1.2: 4, 6, 8, 13 The matrices for 6 and 8 are described on the previous page.      Section 1.3: 2, 11, 22, 24      Section 1.4: 1, 3, 17      Section 1.5: 9, 11, 14    "
 },
 {
   "id": "hw-hw01-3",
@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  Section 1.4: 1, 3, 11, 17   "
+  "body": "  Section 1.4: 1, 3, 17   "
 },
 {
   "id": "hw-hw01-7",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Section 1.5: 4, 9, 11, 14   "
+  "body": "  Section 1.5: 9, 11, 14   "
 },
 {
   "id": "hw-hw0L",
@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Chapter 2 Homework Problems.",
-  "body": " Chapter 2 Homework Problems.   These are the homework problems for Chapter 2. For due dates for different sections of the book, see Blackboard.     Section 2.1: 2, 4, 9, 13, 15      Section 2.2: 3, 7, 11, 13      Section 2.3: 4    "
+  "body": " Chapter 2 Homework Problems.   These are the homework problems for Chapter 2. For due dates for different sections of the book, see Blackboard.     Section 2.1: 13, 15      Section 2.2: 11, 13      Section 2.3: 4    "
 },
 {
   "id": "hw-hw02-3",
@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Section 2.1: 2, 4, 9, 13, 15   "
+  "body": "  Section 2.1: 13, 15   "
 },
 {
   "id": "hw-hw02-4",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Section 2.2: 3, 7, 11, 13   "
+  "body": "  Section 2.2: 11, 13   "
 },
 {
   "id": "hw-hw02-5",
