@@ -215,6 +215,24 @@ var ptx_lunr_docs = [
   "number": "12",
   "title": "Finishing the Proof of the Matrix–Vector Product Theorem.",
   "body": " Finishing the Proof of the Matrix–Vector Product Theorem   Turn-In!  The proof below is partially completed. Work together to finish it. Be explicit about where each definition is used.   By the definition of matrix multiplication, the product is an matrix, and   Using the definition of matrix addition, this can be written as   By the definition of scalar multiplication, we may factor out from each term, leaving . Therefore,   as desired. QED.    "
+},
+{
+  "id": "quiz-01",
+  "level": "1",
+  "url": "quiz-01.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 1: Matrix Operations",
+  "body": " Quiz 1: Matrix Operations   You will have 2-3 minutes to answer these on your own. Then your team will have 5-6 minutes to answer them as a team.  Your individiual grade, out of ten points, includes 1 point for being present and 1.5 points for each correct answer (individual or team).     For the following three questions, select A for yes, B for no, or C if you really have no idea.    Every matrix satisfies .    This is true:     The additive inverse of is       "
+},
+{
+  "id": "quiz-01-3",
+  "level": "2",
+  "url": "quiz-01.html#quiz-01-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For the following three questions, select A for yes, B for no, or C if you really have no idea.    Every matrix satisfies .    This is true:     The additive inverse of is      "
 }
 ]
 
