@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 1",
-  "body": " Week 1  This week we covered the following topics:  "
+  "body": " Week 1  This week we started talking about linear systems. You got advice from the author and your professor about reading the book and practiced that with Section 1.1.  "
 },
 {
   "id": "week02",
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 2: Matrix Operations and Theorems",
-  "body": " Week 2: Matrix Operations and Theorems   Matrix Addition   Matrix Addition  Let and be matrices in . The sum of and , denoted , is the matrix where for all and .    Additive Identity  Let , and let be the zero matrix, meaning each entry of is zero. Then .    For all and , . By definition of matrix equality, . The argument for is identical.    These properties should feel familiar: matrix addition behaves exactly like addition of real numbers.  One guiding principle of linear algebra is that we want matrices to behave like numbers whenever possible. When they fail to do so, that failure usually signals something important.    Every matrix has an additive inverse, but this is not true for multiplicative inverses. We're going to get into that more, and more, and more...     Scalar Multiplication and Linear Combinations   Scalar Multiplication  Let and let . The scalar multiple of by , denoted , is the matrix where .    Compute , where     Linear Combination  Given matrices and scalars , the matrix is called a linear combination of the matrices .    Linear combinations are one of the most important ideas in this course. We will return to them again and again, in many different disguises.  Whenever you see an expression like , mentally translate it as “a weighted sum.”     Algebraic Properties of Matrix Operations   Properties of Matrix Addition  Let . Then:     There exists a unique additive identity  Each matrix has a unique additive inverse     Properties of Scalar Multiplication  For all and         Properties of Matrix Multiplication  For all matrices of appropriate sizes,       There exist identity matrices and such that .      Matrix multiplication is generally not commutative . Order matters, and we must pay attention to it.     Matrix–Vector Products and Linear Systems   Consistency and Linear Combinations  A linear system is consistent if and only if can be expressed as a linear combination of the columns of .    If has a solution , then . Conversely, any such linear combination defines a solution.    This theorem provides a powerful translation: solving equations is equivalent to building vectors from columns.  We will repeatedly use this shift in perspective!     Matrix Inverses   Matrix Inverse  Let . If there exists a matrix such that , then is called the inverse of . We will prove that the inverse is unique, and that means we can write it unambiguously (when it exists).    Multiplicative inverses are much rarer than additive inverses. Understanding when they exist is one of the central goals of the course.    The matrix has inverse .  This makes it easy to solve ; indeed, using the defition of the multiplicative inverse of and the associativity of matrix multiplication, we find     Singular Matrix  A square matrix that does not have an inverse is called singular .    Singular matrices will reappear when we study determinants and linear dependence!    "
+  "body": " Week 2: Matrix Operations and Theorems   These notes cover (generally) Chapter 1, sections 1.1-1.4 of our textbook.    Matrix Addition   Matrix Addition  Let and be matrices in . The sum of and , denoted , is the matrix where for all and .    Additive Identity  Let , and let be the zero matrix, meaning each entry of is zero. Then .   Let with entries and let be the matrix of zeros. For all and , . By definition of matrix equality, . The argument for is identical.     These properties should feel familiar: matrix addition behaves exactly like addition of real numbers.  One guiding principle of linear algebra is that we want matrices to behave like numbers whenever possible. When they fail to do so, that failure usually signals something important.    Every matrix has an additive inverse, but this is not true for multiplicative inverses. We're going to get into that more, and more, and more...     Scalar Multiplication and Linear Combinations   Scalar Multiplication  Let and let . The scalar multiple of by , denoted , is the matrix where .    Compute , where        Linear Combination  Given matrices and scalars , the matrix is called a linear combination of the matrices .    Linear combinations are one of the most important ideas in this course. We will return to them again and again, in many different disguises.  Whenever you see an expression like , you are calculating a linear combination of scalar multiples of the matrices through .     Algebraic Properties of Matrix Operations   Properties of Matrix Addition  Let . Then:     There exists a unique additive identity  Each matrix has a unique additive inverse    Let have entries respectivey for and .  It follows from the definition of matrix addition and the commutative property of real number addition that for each choice and . Therefore .  We have already proved that the matrix of all zeros is an additive identity. Suppose is another additive identity matrix.  By the definition of additive identity applied to , . But the definition of additive identity applied to means that . Therefore , which shows the only additive identity for matrices is matrix of all zeros.  Try the other proofs on your own!     Properties of Scalar Multiplication  For all and          Properties of Matrix Multiplication  For all matrices of appropriate sizes,       There exist identity matrices and such that .      Matrix multiplication is generally not commutative . Order matters, and we must pay attention to it.     Matrix–Vector Products and Linear Systems   Consistency and Linear Combinations  A linear system is consistent if and only if can be expressed as a linear combination of the columns of .    If has a solution , then . Conversely, any such linear combination defines a solution.    This theorem provides a powerful translation: solving equations is equivalent to building vectors from columns.  We will repeatedly use this shift in perspective!     Matrix Inverses   Matrix Inverse  Let . If there exists a matrix such that , then is called the inverse of . We will prove that the inverse is unique, and that means we can write it unambiguously (when it exists).    Multiplicative inverses are much rarer than additive inverses. Understanding when they exist is one of the central goals of the course.    The matrix has inverse .  This makes it easy to solve ; indeed, using the defition of the multiplicative inverse of and the associativity of matrix multiplication, we find     Singular Matrix  A square matrix that does not have an inverse is called singular .    Singular matrices will reappear when we study determinants and linear dependence!    "
 },
 {
   "id": "week02-matrix-addition-2",
@@ -34,30 +34,21 @@ var ptx_lunr_docs = [
   "type": "Proposition",
   "number": "2",
   "title": "Additive Identity.",
-  "body": " Additive Identity  Let , and let be the zero matrix, meaning each entry of is zero. Then .  "
+  "body": " Additive Identity  Let , and let be the zero matrix, meaning each entry of is zero. Then .   Let with entries and let be the matrix of zeros. For all and , . By definition of matrix equality, . The argument for is identical.   "
 },
 {
   "id": "week02-matrix-addition-4",
   "level": "2",
   "url": "week02.html#week02-matrix-addition-4",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " For all and , . By definition of matrix equality, . The argument for is identical.  "
-},
-{
-  "id": "week02-matrix-addition-5",
-  "level": "2",
-  "url": "week02.html#week02-matrix-addition-5",
   "type": "Remark",
   "number": "3",
   "title": "",
   "body": " These properties should feel familiar: matrix addition behaves exactly like addition of real numbers.  One guiding principle of linear algebra is that we want matrices to behave like numbers whenever possible. When they fail to do so, that failure usually signals something important.  "
 },
 {
-  "id": "week02-matrix-addition-6",
+  "id": "week02-matrix-addition-5",
   "level": "2",
-  "url": "week02.html#week02-matrix-addition-6",
+  "url": "week02.html#week02-matrix-addition-5",
   "type": "Remark",
   "number": "4",
   "title": "",
@@ -79,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6",
   "title": "",
-  "body": " Compute , where   "
+  "body": " Compute , where      "
 },
 {
   "id": "week01-scalar-multiplication-4",
@@ -97,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "8",
   "title": "",
-  "body": " Linear combinations are one of the most important ideas in this course. We will return to them again and again, in many different disguises.  Whenever you see an expression like , mentally translate it as “a weighted sum.”  "
+  "body": " Linear combinations are one of the most important ideas in this course. We will return to them again and again, in many different disguises.  Whenever you see an expression like , you are calculating a linear combination of scalar multiples of the matrices through .  "
 },
 {
   "id": "week01-algebraic-properties-2",
@@ -106,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "9",
   "title": "Properties of Matrix Addition.",
-  "body": " Properties of Matrix Addition  Let . Then:     There exists a unique additive identity  Each matrix has a unique additive inverse   "
+  "body": " Properties of Matrix Addition  Let . Then:     There exists a unique additive identity  Each matrix has a unique additive inverse    Let have entries respectivey for and .  It follows from the definition of matrix addition and the commutative property of real number addition that for each choice and . Therefore .  We have already proved that the matrix of all zeros is an additive identity. Suppose is another additive identity matrix.  By the definition of additive identity applied to , . But the definition of additive identity applied to means that . Therefore , which shows the only additive identity for matrices is matrix of all zeros.  Try the other proofs on your own!   "
 },
 {
   "id": "week01-algebraic-properties-3",
@@ -115,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "10",
   "title": "Properties of Scalar Multiplication.",
-  "body": " Properties of Scalar Multiplication  For all and       "
+  "body": " Properties of Scalar Multiplication  For all and        "
 },
 {
   "id": "week01-algebraic-properties-4",

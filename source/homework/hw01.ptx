@@ -13,36 +13,38 @@
                 </p>
             </introduction>
 
-            <exercise workspace="2in">
+            <exercise>
                 <statement>
                     <p>
                         Section 1.1: 14 and 34
                     </p>
                 </statement>
             </exercise>
-            <exercise workspace="2in">
+            <exercise>
                 <statement>
                     <p>
-                        Section 1.2: 4, 6, 8, 13 <br />
+                        Section 1.2: 4, 6, 8, 13
+                    </p>
+                    <p>
                         The matrices for 6 and 8 are described on the previous page.
                     </p>
                 </statement>
             </exercise>
-            <exercise workspace="2in">
+            <exercise>
                 <statement>
                     <p>
                         Section 1.3: 2, 11, 22, 24
                     </p>
                 </statement>
             </exercise>
-            <exercise workspace="2in">
+            <exercise>
                 <statement>
                     <p>
                         Section 1.4: 1, 3, 17
                     </p>
                 </statement>
             </exercise>
-            <exercise workspace="2in">
+            <exercise>
                 <statement>
                     <p>
                         Section 1.5: 9, 11, 14

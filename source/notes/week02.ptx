@@ -5,6 +5,10 @@
 <section xml:id="week02">
   <title>Week 2: Matrix Operations and Theorems</title>
 
+  <introduction>
+  <p> These notes cover (generally) Chapter 1, sections 1.1-1.4 of our textbook. </p>
+  </introduction>
+
   <subsection xml:id="week02-matrix-addition">
     <title>Matrix Addition</title>
 
@@ -77,6 +81,11 @@
         \quad
         B = \begin{bmatrix} 1 &amp; -2 \\ 2 &amp; 0 \end{bmatrix}.
       </m>
+      <answer>
+      <m>
+        \begin{bmatrix} 1 &amp; 8 \\ 17 &amp; 5 \end{bmatrix}
+      </m>
+      </answer>
     </example>
 
     <definition>
@@ -97,8 +106,7 @@
       </p>
       <p>
         Whenever you see an expression like
-        <m>c_1A_1 + \cdots + c_kA_k</m>, mentally translate it as
-        “a weighted sum.”
+        <m>c_1A_1 + \cdots + c_kA_k</m>, you are calculating a linear combination of scalar multiples of the matrices <m>A_1</m> through <m>A_k</m>.
       </p>
     </remark>
   </subsection>
@@ -108,13 +116,31 @@
 
     <theorem>
       <title>Properties of Matrix Addition</title>
-      <p>Let <m>A,B,C \in M_{m,n}</m>. Then:</p>
+      <p>Let <m>A,B,C \in M_{m \times n}</m>. Then:</p>
       <ul>
         <li><p><m>A + B = B + A</m></p></li>
         <li><p><m>(A+B)+C = A+(B+C)</m></p></li>
         <li><p>There exists a unique additive identity <m>Z</m></p></li>
         <li><p>Each matrix <m>A</m> has a unique additive inverse <m>-A</m></p></li>
       </ul>
+      <proof>
+        <p> Let <m>A,B,C \in M_{m \times n}</m> have entries <m>a_{ij}, b_{ij}, c_{ij} </m> respectivey for <m>1 \leq i \leq m</m> and <m>1 \leq j \leq n</m>.
+        </p>
+        <p> It follows from the definition of matrix addition and the commutative property of real number addition that 
+        <md> 
+        <mrow>(A+B)_{ij} \amp = a_{ij} + b_{ij} </mrow>
+        <mrow> \amp = b_{ij} + a_{ij} </mrow>
+        <mrow> \amp (B+A)_{ij} </mrow>
+        </md>
+        for each choice <m>i</m> and <m>j</m>. Therefore <m>A + B = B+ A</m>.
+        </p>
+
+        <p>We have already proved that the <m>m \times n</m> matrix <m>Z</m> of all zeros is an additive identity. Suppose <m>O</m> is another <m>m \times n</m> additive identity matrix.</p>
+        <p> By the definition of additive identity applied to <m>Z</m>, <m>Z + O = O</m>. But the definition of additive identity applied to <m>O</m> means that <m>Z + O = Z</m>. Therefore <m>O = Z</m>, which shows the only additive identity for <m>m \times n </m> matrices is <m>m \times n</m> matrix of all zeros.
+        </p>
+
+        <p>Try the other proofs on your own!</p>
+      </proof>
     </theorem>
 
     <theorem>
@@ -124,6 +150,7 @@
         <li><p><m>r(sA) = (rs)A</m></p></li>
         <li><p><m>(r+s)A = rA + sA</m></p></li>
         <li><p><m>r(A+B) = rA + rB</m></p></li>
+        <li><p><m>1A = A</m></p></li>
       </ul>
     </theorem>
 
