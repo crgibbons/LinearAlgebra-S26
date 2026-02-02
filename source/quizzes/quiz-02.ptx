@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1in" xml:id="quiz-02">
+            <title>Quiz 2: Multiplication and Matrices</title>
+
+            <introduction>
+                <p>
+                    You will have 2-3 minutes to answer these on your own on your sheet (numbers 4 through 6). Then your team will have 5-6 minutes to answer them as a team (numbers 104 through 106).
+                </p>
+                <p>
+                    Your individiual grade, out of ten points, includes 1 point for being present and 1.5 points for each correct answer (individual or team).
+                </p>
+                <p>
+                    For the following three questions, select <em>A</em> for yes/true, <em>B</em> for no/true, or <em>C</em> if you really have no idea.
+                </p>
+            </introduction>
+
+            <exercise workspace=".5cm" number="4">
+                <statement>
+                    <p>
+                        Scalar multiplication by <m>0 \in \mathbb{R}</m>: every matrix satisfies <m>0A = 0</m>.
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace=".5cm" number="5">
+                <statement>
+                    <p>If <m>A</m> is a <m>3 \times 2</m> matrix, then
+                        <me>
+                            \begin{bmatrix} 
+                            1 &amp; 0 &amp; 0 \\ 
+                            0 &amp; 1 &amp; 0 \\
+                            0 &amp; 0 &amp; 1 \\
+                            \end{bmatrix}  A = A
+                        </me>
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace=".5cm" number="6">
+                <statement>
+                    <p>If <m>A</m> is a <m>2 \times 3</m> matrix, then
+                        <me>
+                            \begin{bmatrix} 
+                            1 &amp; 0 &amp; 0 \\ 
+                            0 &amp; 1 &amp; 0 \\
+                            0 &amp; 0 &amp; 1 \\
+                            \end{bmatrix}  A = A
+                        </me>
+                    </p>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>
