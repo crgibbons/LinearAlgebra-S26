@@ -20,6 +20,8 @@
     <xi:include href="./activities/magic-beans-too.ptx" xpointer="activity-magic-beans-too" /> -->
 
     <xi:include href="./quizzes/quiz-01.ptx" xpointer="quiz-01" />
+    <xi:include href="./quizzes/quiz-02.ptx" xpointer="quiz-02" />
+    <xi:include href="./quizzes/quiz-03.ptx" xpointer="quiz-03" />
 
     <!-- Add more xi:include files here to include them in the main course -->
     <!--     <solutions worksheet="hint solution">

@@ -37,6 +37,7 @@
             />
     <target name="pdf" standalone="yes" format="pdf"
             output-dir="pdfs" publication="publication_standalone.ptx" />
+
   </targets>
 </project>
 

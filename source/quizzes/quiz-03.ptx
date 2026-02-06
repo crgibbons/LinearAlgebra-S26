@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1in" xml:id="quiz-03">
+            <title>Quiz 3: Logic Preliminaries</title>
+
+            <introduction>
+                <p>
+                    You will have 2-3 minutes to answer this on your own on your sheet (numbers 6 and 7). Then your team will have 5-6 minutes to answer them as a team (numbers 106 and 107).
+                </p>
+                <p>
+                    Your individiual grade, out of ten points, includes .5 points for each correctly bubbled/unbubbled circle (minimum score is 1pt for being here).
+                </p>
+            </introduction>
+
+            <exercise workspace=".5cm" number="6">
+                <statement>
+                    <p>
+                       Which of the following is a logical statement?
+                    </p>
+                    <ol>
+                    <li><p>February 13, 2026 falls on Friday.</p></li>
+                    <li><p>February 13, 2026 falls on Monday.</p></li>
+                    <li><p>Green is the best color.</p></li>
+                    <li><p>If every cat can read, then every cat can dance.</p></li>
+                    <li><p>Linear algebra is more interesting than calculus.</p></li>
+                    </ol>
+                </statement>
+            </exercise>
+
+            <exercise workspace=".5cm" number="7">
+                <statement>
+                    <p>Select the statements with truth value <q>True</q>.
+                    </p>
+                    <ol>
+                    <li><p>The number one is positive or the number one is negative.</p></li> 
+                    <li><p>The number one is positive and the number one is negative.</p></li> 
+                    <li><p>It is not the case that an odd number is even.</p></li>
+                    <li><p>The square of a real number cannot be negative.</p></li>
+                    <li><p>The cube of a real number cannot be negative.</p></li>
+                    </ol>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>

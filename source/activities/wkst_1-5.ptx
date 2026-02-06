@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1in" xml:id="activity-wkst-1-5">
+            <title>Team Excercises, Chapter 1, Matrix Inverses</title>
+            <introduction>
+                    <p>
+                      Matrix multiplication is weird, as we've noted, but it's also really important!
+                    </p>
+                  </introduction>
+
+                <exercise workspace="1in">
+                <title>Try These!</title>
+                <statement>
+                    <ol>
+                      <li>
+                        <p>
+                           Calculate the product 
+                           <me> \begin{bmatrix} 1 \amp 0 \\ 0 \amp 1 \end{bmatrix} \begin{bmatrix} a \amp b \amp c \\ d \amp e \amp f \end{bmatrix}
+                           </me>
+                        </p>
+                        </li>
+                        <li>
+                          <p>
+                            Calculate the product 
+                           <me> \begin{bmatrix} a \amp b \amp c \\ d \amp e \amp f \end{bmatrix} \begin{bmatrix} 1 \amp 0 \amp 0 \\ 0 \amp 1 \amp 0 \\ 0 \amp 0 \amp 1 \end{bmatrix} 
+                           </me>
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                           Given an <m>m \times n</m> matrix <m>A</m>, describe a matrix <m>I</m> where <m>IA = A</m> What size is <m>I</m>? What are its entries?
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                           Given an <m>m \times n</m> matrix <m>A</m>, describe a matrix <m>J</m> where <m>AJ = A</m> What size is <m>J</m>? What are its entries?
+                          </p>
+                        </li>
+                        <li>
+                          <p>
+                            Complete the definition for the <term><m>n \times n</m> identity matrix</term>: 
+                            <me>[I_n]_{ij} = \begin{cases} \qquad\qquad \amp \text{if } i = j \\[2em]
+                            \qquad\qquad \amp \text{if } i \neq j
+                            \end{cases}
+                            </me>
+                          </p>
+                        </li>
+                        <li>
+                          <p><alert>Turn-In! (Writing Assignment) </alert></p>
+                          <p>
+                            Prove that <m>I_n</m> is the unique <m>n \times n</m> identity matrix.
+                          </p>
+                        </li>
+                    </ol>
+                </statement>
+                </exercise>
+
+                <!-- REFLECT -->
+                <exercise workspace="1in" xml:id="reflect">
+                    <title>Reflect</title>
+                    <statement>
+                      <p>
+                        For a square matrix <m>A</m>, what does it mean to say <m>B</m> is the multiplicative inverse of <m>A</m>?
+                      </p>
+
+                      <p>
+                        If <m>A</m> has a multiplicative inverse, do you think it will be unique?
+                      </p>
+                    </statement>
+                </exercise>
+
+                <example>
+                <title>Pause: let's talk about inverses and how to find them!</title>
+                </example>
+
+                <definition><title>Singular Matrices</title>
+                <statement>
+                <p>A square matrix <m>A</m> is called <term>singular</term> if it does not have a (multiplicative) inverse.</p>
+                </statement>
+                </definition>
+
+                <definition><title>Special Matrices</title>
+
+                <p> A matrix <m>A=[a_{ij}]\in M_{n\times n}</m> is called:</p>
+                <dl><li>
+    <title><term>upper triangular</term></title>
+    <p>if all its entries below the main diagonal are <m>0</m>
+    (that is, if <m>a_{ij}=0</m> whenever <m>i\gt j</m>);</p>
+  </li>
+  <li>
+    <title><term>lower triangular</term></title>
+    <p>if all its entries above the main diagonal are <m>0</m>
+    (that is, if <m>a_{ij}=0</m> whenever <m>i\lt j</m>);</p>
+  </li>
+  <li>
+    <title><term>diagonal</term></title>
+    <p>if all its entries off the main diagonal are <m>0</m>
+    (that is, if <m>i\neq j</m> then <m>a_{ij}=0</m>);</p>
+  </li>
+  <li>
+    <title><term>scalar</term></title>
+    <p>if it is equal to a constant times the identity matrix
+    (that is, if there is a real number <m>r</m> for which <m>a_{ij}=r</m> if <m>i=j</m>
+    and <m>a_{ij}=0</m> if <m>i\neq j</m>);</p>
+  </li>
+  <li>
+    <title><term>symmetric</term></title>
+    <p>if <m>A^T=A</m>;</p>
+  </li>
+  <li>
+    <title><term>skew symmetric</term></title>
+    <p>if <m>A^T=-A</m>.</p>
+  </li>
+</dl>
+</definition>
+
+<exercise xml:id="classify"><title>Classificiation!</title>
+<statement>
+<p>For each given matrix, check the property (or properties) it has. For those rows where
+columns are checked, come up with a matrix that satisfies those definitions.</p>
+
+<table><title><p>Check the definitions that apply.</p></title>
+  <tabular>
+    <row header="yes">
+      <cell>Matrix</cell>
+      <cell>Upper Tri.</cell>
+      <cell>Lower Tri.</cell>
+      <cell>Diagonal</cell>
+      <cell>Scalar</cell>
+      <cell>Symmetric</cell>
+      <cell>Skew Sym.</cell>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}0 \amp 5 \amp 1\\[2pt]0 \amp 6 \amp 2\\[2pt]0 \amp 0 \amp 3\end{bmatrix}</m></cell>
+      <cell/><cell/><cell/><cell/><cell/><cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}1 \amp 2 \amp 1\\[2pt]0 \amp 2 \amp 0\\[2pt]-1 \amp 0 \amp 0\end{bmatrix}</m></cell>
+      <cell/><cell/><cell/><cell/><cell/><cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}1 \amp 0 \amp 0\\[2pt]0 \amp 3 \amp 0\\[2pt]0 \amp 0 \amp 2\end{bmatrix}</m></cell>
+      <cell/><cell/><cell/><cell/><cell/><cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}1 \amp 0 \amp 0\\[2pt]0 \amp 0 \amp 0\\[2pt]0 \amp 0 \amp 8\end{bmatrix}</m></cell>
+      <cell/><cell/><cell/><cell/><cell/><cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}0 \amp -1 \amp 2\\[2pt]1 \amp 0 \amp 3\\[2pt]-2 \amp -3 \amp 0\end{bmatrix}</m></cell>
+      <cell/><cell/><cell/><cell/><cell/><cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}6 \amp 0 \amp 0\\[2pt]0 \amp 6 \amp 0\\[2pt]0 \amp 0 \amp 6\end{bmatrix}</m></cell>
+      <cell/><cell/><cell/><cell/><cell/><cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}0 \amp 0 \amp 0\\[2pt]0 \amp 0 \amp 0\\[2pt]0 \amp 0 \amp 0\end{bmatrix}</m></cell>
+      <cell/><cell/><cell/><cell/><cell/><cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}5 \amp 4 \amp 0\\[2pt]4 \amp 0 \amp 1\\[2pt]0 \amp 1 \amp 3\end{bmatrix}</m></cell>
+      <cell/><cell/><cell/><cell/><cell/><cell/>
+    </row>
+
+    <!-- student-constructed examples 
+    <row>
+      <cell><m>\begin{bmatrix}\;? \amp ? \amp ?\\[2pt]? \amp ? \amp ?\\[2pt]? \amp ? \amp ?\end{bmatrix}</m></cell>
+      <cell>✓</cell>
+      <cell>✓</cell>
+      <cell/><cell/><cell/><cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}\;? \amp ? \amp ?\\[2pt]? \amp ? \amp ?\\[2pt]? \amp ? \amp ?\end{bmatrix}</m></cell>
+      <cell>✓</cell>
+      <cell/>
+      <cell/>
+      <cell/>
+      <cell>✓</cell>
+      <cell/>
+    </row>
+
+    <row>
+      <cell><m>\begin{bmatrix}\;? \amp ? \amp ?\\[2pt]? \amp ? \amp ?\\[2pt]? \amp ? \amp ?\end{bmatrix}</m></cell>
+      <cell/>
+      <cell/>
+      <cell/>
+      <cell>✓</cell>
+      <cell/>
+      <cell>✓</cell>
+    </row> -->
+
+  </tabular>
+</table>
+</statement>
+</exercise>
+
+<exercise workspace="2.5in"><title>Conjectures</title>
+<statement><p> Brainstorm about the ways different definitions fit together. For example, are there matrices that are both symmetric and skew symmetric square matrix?</p></statement></exercise>
+
+
+<remark><title>Writing Assignment Problems</title>
+<p> Please start working on writing up the <alert>turn in</alert> question, and also see if you and your team can figure out how to <alert>prove that matrix multiplication is associative</alert>. First start with the general <m>2 \times 2</m> case, then the <m>3 \times 3</m> case, then see if you can recognize where you are using properties of summations in the general case.</p>
+
+<p>
+Properties of summation notation.
+</p>
+
+<me>
+\sum_{i=1}^{n} (r_i + s_i)a_i
+=
+\sum_{i=1}^{n} r_i a_i
++
+\sum_{i=1}^{n} s_i a_i
+</me>
+
+<me>
+\sum_{i=1}^{n} c(r_i a_i)
+=
+c \left( \sum_{i=1}^{n} r_i a_i \right)
+</me>
+
+<me>
+\sum_{i=1}^{n} \left( \sum_{j=1}^{m} a_{ij} \right)
+=
+\sum_{j=1}^{m} \left( \sum_{i=1}^{n} a_{ij} \right)
+</me>
+
+<p>Finally, <alert>prove one of your conjectures</alert>!</p>
+</remark>
+
+
+
+
+
+        </worksheet>
+    </article>
+</pretext>

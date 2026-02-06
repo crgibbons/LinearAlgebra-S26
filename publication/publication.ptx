@@ -98,8 +98,8 @@
     <!-- Add content to \geometry{}: -->
       
       <geometry>
-        margin="1in"
-        includehead
+        margin="1in",
+        includehead,
         includefoot
       </geometry>
 

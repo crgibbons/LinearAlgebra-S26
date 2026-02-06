@@ -9,49 +9,40 @@
 
             <introduction>
                 <p>
-                    You will have 2-3 minutes to answer these on your own on your sheet (numbers 4 through 6). Then your team will have 5-6 minutes to answer them as a team (numbers 104 through 106).
+                    You will have 2-3 minutes to answer this on your own on your sheet (numbers 4 and 5). Then your team will have 5-6 minutes to answer them as a team (numbers 104 and 105).
                 </p>
                 <p>
-                    Your individiual grade, out of ten points, includes 1 point for being present and 1.5 points for each correct answer (individual or team).
-                </p>
-                <p>
-                    For the following three questions, select <em>A</em> for yes/true, <em>B</em> for no/true, or <em>C</em> if you really have no idea.
+                    Your individiual grade, out of ten points, includes .5 points for each correctly bubbled/unbubbled circle (minimum score is 1pt for being here).
                 </p>
             </introduction>
 
             <exercise workspace=".5cm" number="4">
                 <statement>
                     <p>
-                        Scalar multiplication by <m>0 \in \mathbb{R}</m>: every matrix satisfies <m>0A = 0</m>.
+                       Morally, zero times a matrix is zero. But to write this in a way that we can prove it, we need to write it formally. Suppose <m>m \not = n</m> are positive integers, <m>0 \in \mathbb{R}</m>, <m>A \in M_{m \times n}</m>, <m>Z \in M_{m \times n}</m> (the zeros matrix). Bubble in the option for every true statement.
                     </p>
+                    <ol>
+                    <li><p><m>0A = 0</m></p></li>
+                    <li><p><m>0A = Z</m></p></li>
+                    <li><p><m>ZA = Z</m></p></li>
+                    <li><p><m>AZ = Z</m></p></li>
+                    <li><p>None are true.</p></li>
+                    </ol>
                 </statement>
             </exercise>
 
             <exercise workspace=".5cm" number="5">
                 <statement>
-                    <p>If <m>A</m> is a <m>3 \times 2</m> matrix, then
-                        <me>
-                            \begin{bmatrix} 
-                            1 &amp; 0 &amp; 0 \\ 
-                            0 &amp; 1 &amp; 0 \\
-                            0 &amp; 0 &amp; 1 \\
-                            \end{bmatrix}  A = A
-                        </me>
+                    <p>
+                       Same as before, but now <m>m = n</m>.
                     </p>
-                </statement>
-            </exercise>
-
-            <exercise workspace=".5cm" number="6">
-                <statement>
-                    <p>If <m>A</m> is a <m>2 \times 3</m> matrix, then
-                        <me>
-                            \begin{bmatrix} 
-                            1 &amp; 0 &amp; 0 \\ 
-                            0 &amp; 1 &amp; 0 \\
-                            0 &amp; 0 &amp; 1 \\
-                            \end{bmatrix}  A = A
-                        </me>
-                    </p>
+                    <ol>
+                    <li><p><m>0A = 0</m></p></li> 
+                    <li><p><m>0A = Z</m></p></li> 
+                    <li><p><m>ZA = Z</m></p></li>
+                    <li><p><m>AZ = Z</m></p></li>
+                    <li><p>None are true.</p></li>
+                    </ol>
                 </statement>
             </exercise>
         </worksheet>

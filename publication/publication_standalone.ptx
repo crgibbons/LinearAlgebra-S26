@@ -81,25 +81,24 @@
   <!-- for printing; set @sides="two" if the printing would be two- -->
   <!-- sided.  @pageref="yes/no" controls whether page number are   -->
   <!-- included in cross-references                                 -->
-  <latex>
+  <!-- <latex> -->
   <!-- Replace the <latex> tag above with the one below to try these-->
-  <!--<latex
-          print="no"
-          sides="one"
-          open-odd="no"
-          pageref="no"
-          font-size="10"
+  <latex
+          font-size="11"
           draft="no"
-          latex-style="dyslexic-font"
-      > -->
+      >
     <!-- Control text justification and bottom page behavior: -->
       <!--<page right-alignment="flush" bottom-alignment="ragged" crop-marks="letter"/>-->
 
     <!-- Add content to \geometry{}: -->
       <geometry>
-        margin="1in"
-        includehead
-        includefoot
+        a4paper,
+        left=1in,
+        right=1in,
+        headheight=1in,
+        top=1in,
+        bottom=1.5in,
+        footskip=3in
       </geometry>
 
 
@@ -111,7 +110,7 @@
       <!--<covers front="cover-front.pdf" back="cover-back.pdf" />-->
     <!-- Set @formatted to "no" to remove formatting on worksheets: -->
       <!--<worksheets formatted="yes" />-->
-      <solutions>appendix</solutions>
+      <!-- <solutions>appendix</solutions>-->
   </latex>
 
   <html>

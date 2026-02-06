@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="Activity-title">
+            <title>Activity Title</title>
+
+            <introduction>
+                <p>
+                    This is the introduction to the activity.
+                </p>
+            </introduction>
+
+            <exercise xml:id="parsons-assoc-mult" language="natural" numbered="right">
+  <statement>
+    <p>
+      Put the blocks in a correct order to form a proof that matrix multiplication is associative.
+      Let <m>A</m> be <m>m\times k</m>, <m>B</m> be <m>k\times \ell</m>, and
+      <m>C</m> be <m>\ell\times n</m>. Prove <m>(AB)C = A(BC)</m>.
+    </p>
+  </statement>
+
+  <blocks randomize="yes">
+
+    <block order="1">
+      <p>
+        Let <m>i\in\{1,\dots,m\}</m> and <m>r\in\{1,\dots,n\}</m> be arbitrary.
+      </p>
+    </block>
+
+    <block order="2">
+      <p>
+        The <m>(i,r)</m>-entry of <m>(AB)C</m> is
+        <m>\bigl((AB)C\bigr)_{ir}
+        =
+        \sum_{j=1}^{\ell} (AB)_{ij}\,c_{jr}.</m>
+      </p>
+    </block>
+
+    <block order="3">
+      <p>
+        By the definition of <m>AB</m>,
+        <m>(AB)_{ij}
+        =
+        \sum_{s=1}^{k} a_{is}\,b_{sj}.</m>
+      </p>
+    </block>
+
+    <block order="4">
+      <p>
+        Substituting,
+        <m>\bigl((AB)C\bigr)_{ir}
+        =
+        \sum_{j=1}^{\ell}
+        \left(\sum_{s=1}^{k} a_{is}\,b_{sj}\right)c_{jr}.</m>
+      </p>
+    </block>
+
+    <block order="5">
+      <p>
+        Rearranging finite sums gives
+        <m>\bigl((AB)C\bigr)_{ir}
+        =
+        \sum_{s=1}^{k}
+        a_{is}
+        \left(\sum_{j=1}^{\ell} b_{sj}\,c_{jr}\right).</m>
+      </p>
+    </block>
+
+    <block order="6">
+      <p>
+        The <m>(s,r)</m>-entry of <m>BC</m> is
+        <m>(BC)_{sr}
+        =
+        \sum_{j=1}^{\ell} b_{sj}\,c_{jr}.</m>
+      </p>
+    </block>
+
+    <block order="7">
+      <p>
+        Therefore
+        <m>\bigl((AB)C\bigr)_{ir}
+        =
+        \sum_{s=1}^{k} a_{is}\,(BC)_{sr}.</m>
+      </p>
+    </block>
+
+    <block order="8">
+      <p>
+        By the definition of matrix multiplication, this equals
+        <m>(A(BC))_{ir}</m>.
+      </p>
+    </block>
+
+    <block order="9">
+      <p>
+        Hence <m>\bigl((AB)C\bigr)_{ir}=(A(BC))_{ir}</m> for all <m>i,r</m>,
+        so <m>(AB)C = A(BC)</m>.
+      </p>
+    </block>
+
+    <!-- Distractors -->
+    <block order="10" correct="no">
+      <p>Since matrix multiplication is commutative, <m>(AB)C=(BA)C</m>.</p>
+    </block>
+
+    <block order="11" correct="no">
+      <p><m>(AB)_{ij}=a_{ij}b_{ij}</m>.</p>
+    </block>
+
+  </blocks>
+</exercise>
+        </worksheet>
+    </article>
+</pretext>
