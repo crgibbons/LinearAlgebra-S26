@@ -292,9 +292,9 @@
         The dates and times for the exams are:
         <dl>
           <li>
-            <title>Midterm 1</title>
+            <title>Midterm 1 (<alert>updated 2026-02-06</alert>)</title>
             <p>
-              Tuesday, March 3, in class; a 15-minute oral one-on-one component will be scheduled outside of class time.
+              Thursday, February 26, in class; a 15-minute oral one-on-one component will be scheduled outside of class time.
             </p>
           </li>
           <li>
@@ -324,11 +324,11 @@
         <cell>Weight</cell>
       </row>
       <row>
-        <cell>Attendance</cell>
+        <cell>Attendance/Quiz</cell>
         <cell>10%</cell>
       </row>
       <row>
-        <cell>Teamwork</cell>
+        <cell>Teamwork/Homework</cell>
         <cell>10%</cell>
       </row>
       <row>
@@ -495,21 +495,21 @@
     </paragraphs>
   </section>
   <section xml:id="sec-schedule">
-    <title>Tentative Schedule of Topics (subject to change)</title>
+    <title>Tentative Schedule of Topics (<alert>updated 2026-02-06</alert>)</title>
     <p>
       <ul>
         <li><p>Week 0, 2026-01-22, Read for Thursday: Reading the Textbook; 1.1 Linear Systems</p></li>
         <li><p>Week 1, 2026-01-27, Read for Tuesday: 1.2 Matrices; 1.3 Matrix Multiplication</p></li>
         <li><p>Week 1, 2026-01-29, Read for Thursday: 1.4 Matrix Theorems (part 1)</p></li>
-        <li><p>Week 2, 2026-02-03, Read for Tuesday: 1.4 Matrix Theorems (part 2)</p></li>
-        <li><p>Week 2, 2026-02-05, Read for Thursday: 1.5 Matrix Inverses</p></li>
-        <li><p>Week 3, 2026-02-10, Read for Tuesday: Logic Booklet - Connectives and Implications</p></li>
-        <li><p>Week 3, 2026-02-12, Read for Thursday: Logic Booklet - Proof Techniques; LaTeX (computer day!)</p></li>
+        <li><p>Week 2, 2026-02-03, Read for Tuesday: 1.4 Matrix Theorems (part 2), 1.5 Matrix Inverses</p></li>
+        <li><p>Week 2, 2026-02-05, Read for Thursday: Logic Booklet - Connectives and Implications</p></li>
+        <li><p>Week 3, 2026-02-10, Read for Tuesday: Logic Booklet - Quantifiers and Proof Techniques</p></li>
+        <li><p>Week 3, 2026-02-12, LaTeX (computer day!)</p></li>
         <li><p>Week 4, 2026-02-17, Read for Tuesday: 2.1 Echelon Form; Finding Inverses</p></li>
         <li><p>Week 4, 2026-02-19, Read for Thursday: 2.3 Elementary Matrices</p></li>
         <li><p>Week 5, 2026-02-24, Read for Tuesday: 3.2 Determinants: Definition and Properties</p></li>
-        <li><p>Week 5, 2026-02-26, Read for Thursday: 3.2 Cofactor Expansion; Determinants and Invertibility</p></li>
-        <li><p>Week 6, 2026-03-03, Tuesday: <term>Midterm 1 (Computational)</term></p></li>
+        <li><p>Week 5, 2026-02-26, Thursday: <term>Midterm 1 (Computational)</term></p></li>
+        <li><p>Week 6, 2026-03-03, Read for Tuesday: 3.2 Cofactor Expansion; Determinants and Invertibility</p></li>
         <li><p>Week 6, 2026-03-05, Read for Thursday: 4.2 Vector Spaces</p></li>
         <li><p>Week 7, 2026-03-10, Read for Tuesday: 4.2  Subspaces: Examples and Counterexamples</p></li>
         <li><p>Week 7, 2026-03-12, Read for Thursday: 4.4 Span; 4.5 Linear Independence; 4.6 Basis; 4.6 Dimension</p></li>
@@ -523,9 +523,9 @@
         <li><p>Week 11, 2026-04-21, Read for Tuesday: 6.5 Similarity; 7.1 Eigenvalues and Eigenvectors</p></li>
         <li><p>Week 11, 2026-04-23, Read for Thursday: 7.1 Eigenvalues and Eigenvectors; 7.2 Diagonalization (part 1)</p></li>
         <li><p>Week 12, 2026-04-28, Read for Tuesday: 7.2 Diagonalization (part 2)</p></li>
-        <li><p>Week 12, 2026-04-30, Read for Thursday: 7.3 Similar Matrices (part 1)</p></li>
-        <li><p>Week 13, 2026-05-05, Read for Tuesday: 7.3 Similar Matrices (part 2)</p></li>
-        <li><p>Week 13, 2026-05-07, Thursday: Review/Catch Up </p></li>
+        <li><p>Week 12, 2026-04-30,Thursday: <alert>Midterm 2</alert></p></li>
+        <li><p>Week 13, 2026-05-05, Read for Tuesday: 7.3 Similar Matrices (part 1)</p></li>
+        <li><p>Week 13, 2026-05-07, Read for Thursday: Read for Tuesday: 7.3 Similar Matrices (part 1) </p></li>
         <li><p>Week 14, 2026-05-12, Tuesday: Review/Catch Up </p></li>
         <li><p>Week Finals, 2026-05-14, Read for Thursday: Final Examination (per registrar schedule)</p></li>
       </ul>
