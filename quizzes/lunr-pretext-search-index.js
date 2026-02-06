@@ -44,6 +44,60 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  The additive inverse of is    "
+},
+{
+  "id": "quiz-02",
+  "level": "1",
+  "url": "quiz-02.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 2: Multiplication and Matrices",
+  "body": " Quiz 2: Multiplication and Matrices   You will have 2-3 minutes to answer this on your own on your sheet (numbers 4 and 5). Then your team will have 5-6 minutes to answer them as a team (numbers 104 and 105).  Your individiual grade, out of ten points, includes .5 points for each correctly bubbled\/unbubbled circle (minimum score is 1pt for being here).     Morally, zero times a matrix is zero. But to write this in a way that we can prove it, we need to write it formally. Suppose are positive integers, , , (the zeros matrix). Bubble in the option for every true statement.       None are true.       Same as before, but now .       None are true.     "
+},
+{
+  "id": "quiz-02-3",
+  "level": "2",
+  "url": "quiz-02.html#quiz-02-3",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Morally, zero times a matrix is zero. But to write this in a way that we can prove it, we need to write it formally. Suppose are positive integers, , , (the zeros matrix). Bubble in the option for every true statement.       None are true.    "
+},
+{
+  "id": "quiz-02-4",
+  "level": "2",
+  "url": "quiz-02.html#quiz-02-4",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Same as before, but now .       None are true.    "
+},
+{
+  "id": "quiz-03",
+  "level": "1",
+  "url": "quiz-03.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 3: Logic Preliminaries",
+  "body": " Quiz 3: Logic Preliminaries   You will have 2-3 minutes to answer this on your own on your sheet (numbers 6 and 7). Then your team will have 5-6 minutes to answer them as a team (numbers 106 and 107).  Your individiual grade, out of ten points, includes .5 points for each correctly bubbled\/unbubbled circle (minimum score is 1pt for being here).     Which of the following is a logical statement?   February 13, 2026 falls on Friday.  February 13, 2026 falls on Monday.  Green is the best color.  If every cat can read, then every cat can dance.  Linear algebra is more interesting than calculus.       Select the statements with truth value True .   The number one is positive or the number one is negative.  The number one is positive and the number one is negative.  It is not the case that an odd number is even.  The square of a real number cannot be negative.  The cube of a real number cannot be negative.     "
+},
+{
+  "id": "quiz-03-3",
+  "level": "2",
+  "url": "quiz-03.html#quiz-03-3",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Which of the following is a logical statement?   February 13, 2026 falls on Friday.  February 13, 2026 falls on Monday.  Green is the best color.  If every cat can read, then every cat can dance.  Linear algebra is more interesting than calculus.    "
+},
+{
+  "id": "quiz-03-4",
+  "level": "2",
+  "url": "quiz-03.html#quiz-03-4",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Select the statements with truth value True .   The number one is positive or the number one is negative.  The number one is positive and the number one is negative.  It is not the case that an odd number is even.  The square of a real number cannot be negative.  The cube of a real number cannot be negative.    "
 }
 ]
 

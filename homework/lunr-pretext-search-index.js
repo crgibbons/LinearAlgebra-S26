@@ -15,8 +15,8 @@ var ptx_lunr_docs = [
   "url": "hw-hw01.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Chapter 1 Homework Problems.",
-  "body": " Chapter 1 Homework Problems.   These are the homework problems for Chapter 1. For due dates for different sections of the book, see Blackboard.     Section 1.1: 14 and 34      Section 1.2: 4, 6, 8, 13 The matrices for 6 and 8 are described on the previous page.      Section 1.3: 2, 11, 22, 24      Section 1.4: 1, 3, 17      Section 1.5: 9, 11, 14    "
+  "title": "Chapter 1 Homework and Writing Problems.",
+  "body": " Chapter 1 Homework and Writing Problems.   These are the homework problems for Chapter 1. For due dates for different sections of the book, see Blackboard.     Section 1.1: 14 and 34      Section 1.2: 4, 6, 8, 13  The matrices for 6 and 8 are described on the previous page.      Section 1.3: 2, 11, 22, 24      Section 1.4: 1, 3, 17      Section 1.5 (Writing): 9, 11, 14;  Extra 1. The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution. However, it is not written to conform to the style expectations of your professor. Rewrite the proof, making sure to:  Make sure you define your notation ( Let ... ).   State your assumptions ( Suppose... ).   Use the definition of nonsingular to tell your reader that a specific matrix exists.  Starting with , work your way to without using a two-column proof. That is, given a long enough line, you should be able to write one long sequence of equalities on one line.    Extra 2. Write the logical inverse of if is nonsingular, then has a unique solution.     "
 },
 {
   "id": "hw-hw01-3",
@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Section 1.2: 4, 6, 8, 13 The matrices for 6 and 8 are described on the previous page.   "
+  "body": "  Section 1.2: 4, 6, 8, 13  The matrices for 6 and 8 are described on the previous page.   "
 },
 {
   "id": "hw-hw01-5",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Section 1.5: 9, 11, 14   "
+  "body": "  Section 1.5 (Writing): 9, 11, 14;  Extra 1. The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution. However, it is not written to conform to the style expectations of your professor. Rewrite the proof, making sure to:  Make sure you define your notation ( Let ... ).   State your assumptions ( Suppose... ).   Use the definition of nonsingular to tell your reader that a specific matrix exists.  Starting with , work your way to without using a two-column proof. That is, given a long enough line, you should be able to write one long sequence of equalities on one line.    Extra 2. Write the logical inverse of if is nonsingular, then has a unique solution.    "
 },
 {
   "id": "hw-hw0L",
