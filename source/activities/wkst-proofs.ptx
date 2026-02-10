@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.5in" xml:id="activity-wkst-proofs">
+            <title>Proving Mathematical Statements</title>
+
+            <introduction>
+                <p>
+                    Many mathematical statements are universally quantified implications. There are a few standard ways to prove such a statement.
+                </p>
+
+                <p> The truth table for implication tells us that an implication is true whenever its premise is false. So, our work is to use mathematical results to show that when the premise is true, the conclusion is also true, and thus the implication is true.
+                </p>
+
+                <p> 
+                When we can't do this directly, we consider other proof techniques that rely on logical equivalences.
+                </p>
+            </introduction>
+
+            <exercise workspace="1in"><title>Preliminary work for WA 02</title>
+                <statement>
+                    <p>
+                        The textbook proves the proposition, <q>For all <m>n \times n</m> matrices <m>A</m> and <m>m \times 1</m> matrices <m>\mathbf{b}</m>, if <m>A</m> is nonsingular, then <m>A \mathbf{x} = \mathbf{b}</m> has a unique solution.</q>
+                    </p>
+                    <ol>
+                        <li>
+                            <p> 
+                                Write the first two lines and the last line of a direct proof.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Write the first two lines and the last line of a proof by contrapositve.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Write the first two lines of a proof by contradiction.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Write the first sentence of a paragraph that explains a counterexample.
+                            </p>
+                        </li>
+                    </ol>
+                </statement>
+            </exercise>
+
+            <exercise workspace="1in"><title>Other equivalences</title>
+                <statement>
+                    <p>
+                        Our logic packet includes the equivalence 
+                        <md>
+                            <mrow>
+                                \left[p \implies (q \lor r)\right] \equiv \left[\left(p \land (\lnot q)\right) \implies r\right]
+                            </mrow>
+                        </md>.
+                    </p>
+                    <ol>
+                        <li>
+                            <p> 
+                                Are these statements equivalent to <m>\left(p \land (\lnot r)\right) \implies q</m>? Why or why not?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If you prove <m>\left(p \land (\lnot q)\right) \implies r</m> is true, do you also need to prove <m>\left(p \land (\lnot r)\right) \implies q</m> is true? Why or why not?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Use the logical equivalence to rewrite the statement, <q>For all square matrices <m>A</m>, if <m>A</m> is singular, then <m>A\mathbf{x} = \mathbf{b}</m> has no solution or infinitely many solutions.</q>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Write the first lines and last line of a direct proof of your <emph>new</emph> universally quantified implication.
+                            </p>
+                        </li>
+                    </ol>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>

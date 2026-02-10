@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.5in" xml:id="activity-wkst-quantifiers">
+            <title>Quantifiers</title>
+
+            <introduction>
+                <p>
+                    Quantifiers help us make sense of sentence that is ambiguous by clarifying its scope.
+                </p>
+            </introduction>
+
+            <exercise workspace="3in">
+                <statement>
+                    <p>
+                        Find a way to add a quantifier (or quantifiers) to each sentence below to make it a true statement. Then write the negation of your statement. <alert>If you finish the rest of this activity before we are ready to discuss it as a class, come back and find two more distinct ways to quantify each statement and negate those too.</alert>
+                    </p>
+                    <p> For example, <m>x^2 \gt 5</m> can be quantified
+                    <ul>
+                    <li><p><q>For all real numbers <m>x \gt \sqrt{5}</m>, <m>x^2 \gt 5</m>.</q></p></li>
+                    <li><p><q>For all natural numbers <m>x \ge 3</m>...</q></p></li>
+                    <li><p><q>There exists a real number <m>x</m> such that...</q></p></li>
+                    </ul>
+                    </p>
+                    <p>
+                    Those statements can be negated by changing the quantifiers and using our laws for negating different connectives.
+
+                    <ul>
+                    <li><p><q>There exists a real number <m>x \gt \sqrt{5}</m> such that it is not the case that <m>x^2 \gt 5</m></q>, or equivalently, <q>There exists a real number <m>x \gt \sqrt{5}</m> such that <m>x^2 \leq 5</m>.</q></p></li>
+                    <li><p><q>There exists a natural number <m>x \ge 3</m></q> such that it is not the case that...</p></li>
+                    <li><p><q>For all real numbers <m>x</m>, it is not the case that...</q></p></li>
+                    </ul>
+                    </p>
+                    <ol>
+                    <li><p> <m>x^2 \gt 5-n</m></p>
+                    <solution>
+                        <p> For all real numbers <m>x</m> and for all natural numbers <m>n \gt 5</m>, <m>x^2 \gt 5-n</m>. (This is a true statement) </p>
+                        <p> Negation: There exist a real number <m>x</m> and a natural number <m>n \gt 5</m> such that <m>x \lt 5-n</m>. (This is a false statement)</p>
+                    </solution>
+                    </li>
+                    <li><p> <m>x+ay = 3</m></p>
+                    <solution> 
+                        <p>For all real numbers  <m>a</m> there exist real numbers <m>x</m> and <m>y</m> such that <m>x+ay = 3</m>. (This is true)</p>
+                        <p>Negation: There exists a real number <m>a</m> such that all real numbers <m>x</m> and <m>y</m> fail to satisfy <m>x + ay = 3</m>. (This is false)</p>
+                    </solution>
+                    </li>
+                        
+                    <li>
+                    <p> <m>I_n A = A</m></p>
+                    <solution>
+                        <p>For all natural numbers <m>n</m> and <m>m</m>, for all <m>A \in M_{n \times m}</m>, <m>I_nA = A</m>. (This is true)</p>
+                        <p> Negation: There exist natural numbers <m>n</m> and <m>m</m> and a matrix <m>A \in M_{n \times n}</m> such that <m>I_n A \neq A</m>. (This is false)</p>
+                    </solution>
+                    </li>
+
+                    </ol>
+                </statement>
+            </exercise>
+
+            <exercise workspace="1in">
+                <statement>
+                    <p>
+                        Many mathematical results can be written as universally quantified implications.
+                    </p>
+                    <p>
+                        For example, Theorem 1.6 in our textbook can be written logically as
+                        <md>
+                            <mrow> 
+                            \amp \forall A,B \in M_{n\times n} 
+                            </mrow>
+                            <mrow> 
+                            \amp \bigl(\left[\left(A \text{ is nonsingular}\right)\land \left(B \text{ is nonsingular}\right)\right]
+                            </mrow>
+                            <mrow>
+                            \amp \implies \left[\left(AB \text{ is nonsingular}\right) \land \left((AB)^{-1} = B^{-1}A^{-1}\right) \right] \bigr)
+                            </mrow>
+                        </md>
+                    </p>
+                    <p> Rewrite the following informally stated results as logically quantified statements in logic notation, then in full sentences.
+                    <ol>
+                        <li>
+                            <p>
+                                Matrix multiplication is associative.
+                            </p>
+                            <solution>
+                                <p> For all matrices <m>A</m>, <m>B</m>, and <m>C</m>, if the product <m>(AB)C</m> exists, then <m>(AB)C = A(BC)</m>.
+                                </p>
+                            </solution>
+                        </li>
+                        <li>
+                            <p>
+                                There's a unique identity matrix for each <m>n</m>.
+                            </p>
+                            <solution>
+                                <p>
+                                    For each natural number <m>n</m>, if <m>J \in M_{n \times m}</m> and <m>JA = A = AJ</m> for all <m>A \in M_{n \times n}</m>, then <m>J = I_n</m>.
+                                </p>
+                            </solution>
+                        </li>
+                        <li>
+                            <p> The only symmertric and skew symmetric matrix is the zero matrix.
+                            </p>
+                            <solution>
+                                <p>
+                                    For every <m>A \in M_{n \times n}</m>, if <m>A = A^{T}</m> and <m>A = -A^{T}</m>, then <m>A = Z</m> (where <m>Z</m> is the <m>n \times n</m> matrix of zeros).
+                                </p>
+                            </solution>
+                        </li>
+                        <li> 
+                            <p>
+                                <m>A\mathbf{x} = \mathbf{b}</m> has a unique solution when <m>A</m> is nonsingular.
+                            </p>
+                            <solution>
+                                <p>
+                                    For all matrices <m>A \in M_{m \times n}</m>, for all vectors <m>\mathbf{x} \in M_{n \times 1}</m> and <m>\mathbf{b} \in M_{m \times 1}</m>, if <m>A</m> is nonsingular, then <m>A\mathbf{x} = \mathbf{b}</m> has a unique solution.
+                                </p>
+                            </solution>
+                        </li>
+                    </ol>
+                    </p>
+                </statement>
+            </exercise>
+
+            <exercise workspace="1in"><title>Preliminary thinking for WA 02</title>
+                <statement>
+                    <p>
+                        The textbook proves the proposition, <q>For all <m>n \times n</m> matrices <m>A</m> and <m>m \times 1</m> matrices <m>\mathbf{b}</m>, if <m>A</m> is nonsingular, then <m>A \mathbf{x} = \mathbf{b}</m> has a unique solution.</q>
+                    </p>
+                    <ol>
+                        <li>
+                            <p> 
+                               Rewrite the implication as its contrapositive.
+                            </p>
+                            <solution>
+                                <p>
+                                For all <m>n \times n</m> matrices <m>A</m> and <m>m \times 1</m> matrices <m>\mathbf{b}</m>, if <m>A \mathbf{x} = \mathbf{b}</m> has no solutions or multiple solutions, then <m>A</m> is singular.
+                                </p>
+                            </solution>
+                        </li>
+                        <li>
+                            <p>
+                                Rewrite the implication using the law of implication.
+                            </p>
+                            <solution>
+                                <p>
+                                For all <m>n \times n</m> matrices <m>A</m> and <m>m \times 1</m> matrices <m>\mathbf{b}</m>, <m>A</m> is singular or <m>A \mathbf{x} = \mathbf{b}</m> or has a unique solution.
+                                </p>
+                            </solution>
+                        </li>
+                        <li>
+                            <p>
+                                Write the negation of the implication using the law of implication.
+                            </p>
+                            <solution>
+                                <p>
+                                There exists an <m>n \times n</m> matrix <m>A</m> and an <m>n \times 1</m> matrix <m>x</m> and an <m>m \times 1</m> matrix <m>\mathbf{b}</m>, such that <m>A</m> is nonsingular and <m>A \mathbf{x} = \mathbf{b}</m> does not have a unique solution.
+                                </p>
+                            </solution>
+
+                        </li>
+                    </ol>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>
