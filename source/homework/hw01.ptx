@@ -49,7 +49,7 @@
                     <p>
                         Section 1.5 (Writing): 9, 11, 14;
                     </p>
-                    <p><alert>Extra 1.</alert> 
+                    <p><alert>Extra 1.</alert> (Writing):
                         The textbook proves the proposition, <q>For all <m>n \times n</m> matrices <m>A</m> and <m>m \times 1</m> matrices <m>\mathbf{b}</m>, if <m>A</m> is nonsingular, then <m>A \mathbf{x} = \mathbf{b}</m> has a unique solution.</q> However, it is not written to conform to the style expectations of your professor. Rewrite the proof, making sure to:
                         <ul>
                         <li><p>Make sure you define your notation (<q>Let ...</q>).</p>

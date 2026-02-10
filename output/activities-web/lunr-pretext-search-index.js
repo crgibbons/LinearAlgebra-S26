@@ -217,22 +217,67 @@ var ptx_lunr_docs = [
   "body": " Finishing the Proof of the Matrix–Vector Product Theorem   Turn-In!  The proof below is partially completed. Work together to finish it. Be explicit about where each definition is used.   By the definition of matrix multiplication, the product is an matrix, and   Using the definition of matrix addition, this can be written as   By the definition of scalar multiplication, we may factor out from each term, leaving . Therefore,   as desired. QED.    "
 },
 {
-  "id": "quiz-01",
+  "id": "activity-wkst-quantifiers",
   "level": "1",
-  "url": "quiz-01.html",
+  "url": "activity-wkst-quantifiers.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Quiz 1: Matrix Operations",
-  "body": " Quiz 1: Matrix Operations   You will have 2-3 minutes to answer these on your own. Then your team will have 5-6 minutes to answer them as a team.  Your individiual grade, out of ten points, includes 1 point for being present and 1.5 points for each correct answer (individual or team).     For the following three questions, select A for yes, B for no, or C if you really have no idea.    Every matrix satisfies .    This is true:     The additive inverse of is       "
+  "title": "Quantifiers",
+  "body": " Quantifiers   Quantifiers help us make sense of sentence that is ambiguous by clarifying its scope.     Find a way to add a quantifier (or quantifiers) to each sentence below to make it a true statement. Then write the negation of your statement. If you finish the rest of this activity before we are ready to discuss it as a class, come back and find two more distinct ways to quantify each statement and negate those too.   For example, can be quantified  For all real numbers , .  For all natural numbers ...  There exists a real number such that...    Those statements can be negated by changing the quantifiers and using our laws for negating different connectives.  There exists a real number such that it is not the case that , or equivalently, There exists a real number such that .  There exists a natural number such that it is not the case that...  For all real numbers , it is not the case that...        For all real numbers and for all natural numbers , . (This is a true statement)  Negation: There exist a real number and a natural number such that . (This is a false statement)       For all real numbers there exist real numbers and such that . (This is true)  Negation: There exists a real number such that all real numbers and fail to satisfy . (This is false)        For all natural numbers and , for all , . (This is true)  Negation: There exist natural numbers and and a matrix such that . (This is false)         Many mathematical results can be written as universally quantified implications.  For example, Theorem 1.6 in our textbook can be written logically as   Rewrite the following informally stated results as logically quantified statements in logic notation, then in full sentences.   Matrix multiplication is associative.   For all matrices , , and , if the product exists, then .     There's a unique identity matrix for each .   For each natural number , if and for all , then .     The only symmertric and skew symmetric matrix is the zero matrix.   For every , if and , then (where is the matrix of zeros).      has a unique solution when is nonsingular.   For all matrices , for all vectors and , if is nonsingular, then has a unique solution.        Preliminary thinking for WA 02   The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution.     Rewrite the implication as its contrapositive.   For all matrices and matrices , if has no solutions or multiple solutions, then is singular.     Rewrite the implication using the law of implication.   For all matrices and matrices , is singular or or has a unique solution.     Write the negation of the implication using the law of implication.   There exists an matrix and an matrix and an matrix , such that is nonsingular and does not have a unique solution.       "
 },
 {
-  "id": "quiz-01-3",
+  "id": "activity-wkst-quantifiers-3",
   "level": "2",
-  "url": "quiz-01.html#quiz-01-3",
+  "url": "activity-wkst-quantifiers.html#activity-wkst-quantifiers-3",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  For the following three questions, select A for yes, B for no, or C if you really have no idea.    Every matrix satisfies .    This is true:     The additive inverse of is      "
+  "body": "  Find a way to add a quantifier (or quantifiers) to each sentence below to make it a true statement. Then write the negation of your statement. If you finish the rest of this activity before we are ready to discuss it as a class, come back and find two more distinct ways to quantify each statement and negate those too.   For example, can be quantified  For all real numbers , .  For all natural numbers ...  There exists a real number such that...    Those statements can be negated by changing the quantifiers and using our laws for negating different connectives.  There exists a real number such that it is not the case that , or equivalently, There exists a real number such that .  There exists a natural number such that it is not the case that...  For all real numbers , it is not the case that...        For all real numbers and for all natural numbers , . (This is a true statement)  Negation: There exist a real number and a natural number such that . (This is a false statement)       For all real numbers there exist real numbers and such that . (This is true)  Negation: There exists a real number such that all real numbers and fail to satisfy . (This is false)        For all natural numbers and , for all , . (This is true)  Negation: There exist natural numbers and and a matrix such that . (This is false)      "
+},
+{
+  "id": "activity-wkst-quantifiers-4",
+  "level": "2",
+  "url": "activity-wkst-quantifiers.html#activity-wkst-quantifiers-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Many mathematical results can be written as universally quantified implications.  For example, Theorem 1.6 in our textbook can be written logically as   Rewrite the following informally stated results as logically quantified statements in logic notation, then in full sentences.   Matrix multiplication is associative.   For all matrices , , and , if the product exists, then .     There's a unique identity matrix for each .   For each natural number , if and for all , then .     The only symmertric and skew symmetric matrix is the zero matrix.   For every , if and , then (where is the matrix of zeros).      has a unique solution when is nonsingular.   For all matrices , for all vectors and , if is nonsingular, then has a unique solution.       "
+},
+{
+  "id": "activity-wkst-quantifiers-5",
+  "level": "2",
+  "url": "activity-wkst-quantifiers.html#activity-wkst-quantifiers-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Preliminary thinking for WA 02.",
+  "body": "Preliminary thinking for WA 02   The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution.     Rewrite the implication as its contrapositive.   For all matrices and matrices , if has no solutions or multiple solutions, then is singular.     Rewrite the implication using the law of implication.   For all matrices and matrices , is singular or or has a unique solution.     Write the negation of the implication using the law of implication.   There exists an matrix and an matrix and an matrix , such that is nonsingular and does not have a unique solution.      "
+},
+{
+  "id": "activity-wkst-proofs",
+  "level": "1",
+  "url": "activity-wkst-proofs.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Proving Mathematical Statements",
+  "body": " Proving Mathematical Statements   Many mathematical statements are universally quantified implications. There are a few standard ways to prove such a statement.  The truth table for implication tells us that an implication is true whenever its premise is false. So, our work is to use mathematical results to show that when the premise is true, the conclusion is also true, and thus the implication is true.  When we can't do this directly, we consider other proof techniques that rely on logical equivalences.   Preliminary work for WA 02   The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution.     Write the first two lines and the last line of a direct proof.    Write the first two lines and the last line of a proof by contrapositve.    Write the first two lines of a proof by contradiction.    Write the first sentence of a paragraph that explains a counterexample.      Other equivalences   Our logic packet includes the equivalence .    Are these statements equivalent to ? Why or why not?    If you prove is true, do you also need to prove is true? Why or why not?    Use the logical equivalence to rewrite the statement, For all square matrices , if is singular, then has no solution or infinitely many solutions.     Write the first lines and last line of a direct proof of your new universally quantified implication.      "
+},
+{
+  "id": "activity-wkst-proofs-3",
+  "level": "2",
+  "url": "activity-wkst-proofs.html#activity-wkst-proofs-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Preliminary work for WA 02.",
+  "body": "Preliminary work for WA 02   The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution.     Write the first two lines and the last line of a direct proof.    Write the first two lines and the last line of a proof by contrapositve.    Write the first two lines of a proof by contradiction.    Write the first sentence of a paragraph that explains a counterexample.     "
+},
+{
+  "id": "activity-wkst-proofs-4",
+  "level": "2",
+  "url": "activity-wkst-proofs.html#activity-wkst-proofs-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Other equivalences.",
+  "body": "Other equivalences   Our logic packet includes the equivalence .    Are these statements equivalent to ? Why or why not?    If you prove is true, do you also need to prove is true? Why or why not?    Use the logical equivalence to rewrite the statement, For all square matrices , if is singular, then has no solution or infinitely many solutions.     Write the first lines and last line of a direct proof of your new universally quantified implication.     "
 }
 ]
 

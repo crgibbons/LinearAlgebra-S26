@@ -20,6 +20,10 @@
     <xi:include href="./activities/magic-beans-too.ptx" xpointer="activity-magic-beans-too" /> -->
     <xi:include href="./activities/wkst-prelim.ptx" xpointer="activity-wkst-prelim" />
     <xi:include href="./activities/wkst_1-1_1-3.ptx" xpointer="activity-wkst_1-1_1-3" />
+    <xi:include href="./activities/wkst_1-5.ptx" xpointer="activity-wkst_1-5" />
+    <xi:include href="./activities/wkst-quantifiers.ptx" xpointer="activity-wkst-quantifiers" />
+    <xi:include href="./activities/wkst-proofs.ptx" xpointer="activity-wkst-proofs" />
+
 
     <!-- Add more xi:include files here to include them in the main course -->
     <!--     <solutions worksheet="hint solution">
