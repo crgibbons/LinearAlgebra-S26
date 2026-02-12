@@ -16,22 +16,39 @@
             <exercise workspace="2in">
                 <statement>
                     <p>
-                        Section 2.1: 13, 15
+                        Section 2.1: 2, 4, 13, 15; you may use <url href="https://crgibbons.github.io/apps/rowreduce.html">the row reducer</url> to help but make sure to record your row operations!
+                    </p>
+                    <p> Writing: 9, 10</p>
+                </statement>
+            </exercise>
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        Section 2.2: 8, 11, 13, 29
                     </p>
                 </statement>
             </exercise>
             <exercise workspace="2in">
                 <statement>
                     <p>
-                        Section 2.2: 11, 13 
+                        Section 2.3: 2, 3, 4, 8 (look at examples for these!)
                     </p>
-                </statement>
-            </exercise>
-            <exercise workspace="2in">
-                <statement>
-                    <p>
-                        Section 2.3: 4
-                    </p>
+                    <p> Writing: with your partner, start a document that has the results from the box on page 120 as a theorem: <q>Theorem: For every <m>n \times n</m> matrix <m>A</m>, the following statements are equivalent:</q>. Use the <c>enumerate</c> environment to list the five equivalent statements. </p>
+                    <program language="latex">
+                    <code>
+                    \begin{thm*}[The Big Theorem] 
+                        For every $n \times n$ matrix $A$, 
+                        the following statements are equivalent:
+                            \begin{enumerate}
+                                \item $A$ is nonsingular.
+                                \item
+                                \item 
+                                \item 
+                                \item 
+                            \end{enumerate}
+                    \end{thm*}
+                    </code>
+                    </program>
                 </statement>
             </exercise>
         </worksheet>

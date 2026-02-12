@@ -23,6 +23,7 @@
     <xi:include href="./activities/wkst_1-5.ptx" xpointer="activity-wkst_1-5" />
     <xi:include href="./activities/wkst-quantifiers.ptx" xpointer="activity-wkst-quantifiers" />
     <xi:include href="./activities/wkst-proofs.ptx" xpointer="activity-wkst-proofs" />
+    <xi:include href="./activities/wkst-rref.ptx" xpointer="activity-wkst-rref" />
 
 
     <!-- Add more xi:include files here to include them in the main course -->

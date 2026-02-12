@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Chapter 1 Homework and Writing Problems.",
-  "body": " Chapter 1 Homework and Writing Problems.   These are the homework problems for Chapter 1. For due dates for different sections of the book, see Blackboard.     Section 1.1: 14 and 34      Section 1.2: 4, 6, 8, 13  The matrices for 6 and 8 are described on the previous page.      Section 1.3: 2, 11, 22, 24      Section 1.4: 1, 3, 17      Section 1.5 (Writing): 9, 11, 14;  Extra 1. The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution. However, it is not written to conform to the style expectations of your professor. Rewrite the proof, making sure to:  Make sure you define your notation ( Let ... ).   State your assumptions ( Suppose... ).   Use the definition of nonsingular to tell your reader that a specific matrix exists.  Starting with , work your way to without using a two-column proof. That is, given a long enough line, you should be able to write one long sequence of equalities on one line.    Extra 2. Write the logical inverse of if is nonsingular, then has a unique solution.     "
+  "body": " Chapter 1 Homework and Writing Problems.   These are the homework problems for Chapter 1. For due dates for different sections of the book, see Blackboard.     Section 1.1: 14 and 34      Section 1.2: 4, 6, 8, 13  The matrices for 6 and 8 are described on the previous page.      Section 1.3: 2, 11, 22, 24      Section 1.4: 1, 3, 17      Section 1.5 (Writing): 9, 11, 14;  Extra 1. (Writing): The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution. However, it is not written to conform to the style expectations of your professor. Rewrite the proof, making sure to:  Make sure you define your notation ( Let ... ).   State your assumptions ( Suppose... ).   Use the definition of nonsingular to tell your reader that a specific matrix exists.  Starting with , work your way to without using a two-column proof. That is, given a long enough line, you should be able to write one long sequence of equalities on one line.    Extra 2. Write the logical inverse of if is nonsingular, then has a unique solution.     "
 },
 {
   "id": "hw-hw01-3",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Section 1.5 (Writing): 9, 11, 14;  Extra 1. The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution. However, it is not written to conform to the style expectations of your professor. Rewrite the proof, making sure to:  Make sure you define your notation ( Let ... ).   State your assumptions ( Suppose... ).   Use the definition of nonsingular to tell your reader that a specific matrix exists.  Starting with , work your way to without using a two-column proof. That is, given a long enough line, you should be able to write one long sequence of equalities on one line.    Extra 2. Write the logical inverse of if is nonsingular, then has a unique solution.    "
+  "body": "  Section 1.5 (Writing): 9, 11, 14;  Extra 1. (Writing): The textbook proves the proposition, For all matrices and matrices , if is nonsingular, then has a unique solution. However, it is not written to conform to the style expectations of your professor. Rewrite the proof, making sure to:  Make sure you define your notation ( Let ... ).   State your assumptions ( Suppose... ).   Use the definition of nonsingular to tell your reader that a specific matrix exists.  Starting with , work your way to without using a two-column proof. That is, given a long enough line, you should be able to write one long sequence of equalities on one line.    Extra 2. Write the logical inverse of if is nonsingular, then has a unique solution.    "
 },
 {
   "id": "hw-hw0L",
@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Chapter 2 Homework Problems.",
-  "body": " Chapter 2 Homework Problems.   These are the homework problems for Chapter 2. For due dates for different sections of the book, see Blackboard.     Section 2.1: 13, 15      Section 2.2: 11, 13      Section 2.3: 4    "
+  "body": " Chapter 2 Homework Problems.   These are the homework problems for Chapter 2. For due dates for different sections of the book, see Blackboard.     Section 2.1: 2, 4, 13, 15; you may use the row reducer to help but make sure to record your row operations!  Writing: 9, 10      Section 2.2: 8, 11, 13, 29      Section 2.3: 2, 3, 4, 8 (look at examples for these!)  Writing: with your partner, start a document that has the results from the box on page 120 as a theorem: Theorem: For every matrix , the following statements are equivalent: . Use the enumerate environment to list the five equivalent statements.   \\begin{thm*}[The Big Theorem] For every $n \\times n$ matrix $A$, the following statements are equivalent: \\begin{enumerate} \\item $A$ is nonsingular. \\item \\item \\item \\item \\end{enumerate} \\end{thm*}     "
 },
 {
   "id": "hw-hw02-3",
@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Section 2.1: 13, 15   "
+  "body": "  Section 2.1: 2, 4, 13, 15; you may use the row reducer to help but make sure to record your row operations!  Writing: 9, 10   "
 },
 {
   "id": "hw-hw02-4",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Section 2.2: 11, 13   "
+  "body": "  Section 2.2: 8, 11, 13, 29   "
 },
 {
   "id": "hw-hw02-5",
@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Section 2.3: 4   "
+  "body": "  Section 2.3: 2, 3, 4, 8 (look at examples for these!)  Writing: with your partner, start a document that has the results from the box on page 120 as a theorem: Theorem: For every matrix , the following statements are equivalent: . Use the enumerate environment to list the five equivalent statements.   \\begin{thm*}[The Big Theorem] For every $n \\times n$ matrix $A$, the following statements are equivalent: \\begin{enumerate} \\item $A$ is nonsingular. \\item \\item \\item \\item \\end{enumerate} \\end{thm*}    "
 }
 ]
 

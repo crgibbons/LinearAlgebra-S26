@@ -278,6 +278,24 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "Other equivalences.",
   "body": "Other equivalences   Our logic packet includes the equivalence .    Are these statements equivalent to ? Why or why not?    If you prove is true, do you also need to prove is true? Why or why not?    Use the logical equivalence to rewrite the statement, For all square matrices , if is singular, then has no solution or infinitely many solutions.     Write the first lines and last line of a direct proof of your new universally quantified implication.     "
+},
+{
+  "id": "activity-wkst-rref",
+  "level": "1",
+  "url": "activity-wkst-rref.html",
+  "type": "Section",
+  "number": "",
+  "title": "Reducing Matrices to (Reduced) Row Echelon Form",
+  "body": " Reducing Matrices to (Reduced) Row Echelon Form   Interactive Row Reduction   Use the applet below to row-reduce the matrix. Your task is to decide which row operation to perform; the applet carries out the arithmetic.     "
+},
+{
+  "id": "ex-rowreduce-applet",
+  "level": "2",
+  "url": "activity-wkst-rref.html#ex-rowreduce-applet",
+  "type": "Checkpoint",
+  "number": "14",
+  "title": "Interactive Row Reduction.",
+  "body": " Interactive Row Reduction   Use the applet below to row-reduce the matrix. Your task is to decide which row operation to perform; the applet carries out the arithmetic.    "
 }
 ]
 

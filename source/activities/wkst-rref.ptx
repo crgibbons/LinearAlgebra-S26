@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <section margin="1in" bottom="1.5in" xml:id="activity-wkst-rref">
+            <title>Reducing Matrices to (Reduced) Row Echelon Form</title>
+
+                <exercise xml:id="ex-rowreduce-applet">
+                    <title>Interactive Row Reduction</title>
+                    <statement>
+                        <p>
+                          Use the applet below to row-reduce the matrix.
+                          Your task is to decide which row operation to perform;
+                          the applet carries out the arithmetic.
+                        
+
+                    <interactive xml:id="int-rowreduce" label="Row Reduction Applet">
+                      <iframe
+                        source="https://crgibbons.github.io/apps/rowreduce.html"
+                        width="600"
+                        height="700"
+                      />
+                    </interactive>
+                    </p>
+                    </statement>
+            </exercise>
+        </section>
+    </article>
+</pretext>
