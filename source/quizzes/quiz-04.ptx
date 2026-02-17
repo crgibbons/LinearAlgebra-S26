@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1in" xml:id="quiz-05">
+            <title>Quiz 5: Logic Preliminaries</title>
+
+            <introduction>
+                <p>
+                    You will have 2-3 minutes to answer this on your own on your sheet (numbers 8 and 9). Then your team will have 5-6 minutes to answer them as a team (numbers 108 and 109).
+                </p>
+                <p>
+                    Your individiual grade, out of ten points, includes .5 point for each correctly bubbled/unbubbled circle (minimum score is 1pt for being here).
+                </p>
+            </introduction>
+
+            <exercise workspace=".5cm" number="8">
+                <statement>
+                    <p>
+                       Given a <m>3 \times 3</m> matrix <m>A</m> and the matrix <me>B = \begin{bmatrix} 1 \amp 2 \amp 0 \\ 0 \amp 1 \amp 0 \\ 0 \amp 0 \amp 1 \end{bmatrix}</me>, which of the following are true? (You might want to do some scratch work!)
+                    </p>
+                    <ol>
+                    <li><p><m>BA</m> performs the row operation <m>2R_2 + R_1 \to R_2</m></p></li>
+                    <li><p><m>BA</m> performs the row operation <m>2R_2 + R_1 \to R_1</m></p></li>
+                    <li><p><m>AB</m> performs the row operation <m>2R_2 + R_1 \to R_2</m></p></li>
+                    <li><p><m>AB</m> performs the row operation <m>2R_2 + R_1 \to R_1</m></p></li>
+                    <li><p>None of the above.</p></li>
+                    </ol>
+                </statement>
+            </exercise>
+
+            <exercise workspace=".5cm" number="8">
+                <statement>
+                    <p>
+                       For the same matrix <m>B</m> as above, which are true?
+                    </p>
+                    <ol>
+                    <li><p><m>B</m> can perform a row operation on <m>A</m></p></li>
+                    <li><p><m>B</m> can perform a column operation on <m>A</m></p></li>
+                    <li><p><m>B</m> is singular </p></li>
+                    <li><p><m>B</m> is nonsingular and <me>B^{-1} = \begin{bmatrix} 1 \amp -2 \amp 0 \\ 0 \amp 1 \amp 0 \\ 0 \amp 0 \amp 1 \end{bmatrix}</me> </p></li>
+                    <li><p>None of the above.</p></li>
+                    </ol>
+                </statement>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>

@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Chapter 2 Homework Problems.",
-  "body": " Chapter 2 Homework Problems.   These are the homework problems for Chapter 2. For due dates for different sections of the book, see Blackboard.     Section 2.1: 2, 4, 13, 15; you may use the row reducer to help but make sure to record your row operations!  Writing: 9, 10      Section 2.2: 8, 11, 13, 29      Section 2.3: 2, 3, 4, 8 (look at examples for these!)  Writing: with your partner, start a document that has the results from the box on page 120 as a theorem: Theorem: For every matrix , the following statements are equivalent: . Use the enumerate environment to list the five equivalent statements.   \\begin{thm*}[The Big Theorem] For every $n \\times n$ matrix $A$, the following statements are equivalent: \\begin{enumerate} \\item $A$ is nonsingular. \\item \\item \\item \\item \\end{enumerate} \\end{thm*}     "
+  "body": " Chapter 2 Homework Problems.   These are the homework problems for Chapter 2. For due dates for different sections of the book, see Blackboard.     Section 2.1: 2, 4, 13, 15; you may use the row reducer to help but make sure to record your row operations!  Writing: 9, 10      Section 2.2: 8, 11, 13, 29      Section 2.3: 2, 3, 4, 8 (look at examples for these!); Writing: 21, 23 (see the hint)  Writing: with your partner, start a document that has the results from the box on page 120 as a theorem: Theorem: For every matrix , the following statements are equivalent: . Use the enumerate environment to list the five equivalent statements.   \\begin{thm*}[The Big Theorem] For every $n \\times n$ matrix $A$, the following statements are equivalent: \\begin{enumerate} \\item $A$ is nonsingular. \\item \\item \\item \\item \\end{enumerate} \\end{thm*}     "
 },
 {
   "id": "hw-hw02-3",
@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Section 2.3: 2, 3, 4, 8 (look at examples for these!)  Writing: with your partner, start a document that has the results from the box on page 120 as a theorem: Theorem: For every matrix , the following statements are equivalent: . Use the enumerate environment to list the five equivalent statements.   \\begin{thm*}[The Big Theorem] For every $n \\times n$ matrix $A$, the following statements are equivalent: \\begin{enumerate} \\item $A$ is nonsingular. \\item \\item \\item \\item \\end{enumerate} \\end{thm*}    "
+  "body": "  Section 2.3: 2, 3, 4, 8 (look at examples for these!); Writing: 21, 23 (see the hint)  Writing: with your partner, start a document that has the results from the box on page 120 as a theorem: Theorem: For every matrix , the following statements are equivalent: . Use the enumerate environment to list the five equivalent statements.   \\begin{thm*}[The Big Theorem] For every $n \\times n$ matrix $A$, the following statements are equivalent: \\begin{enumerate} \\item $A$ is nonsingular. \\item \\item \\item \\item \\end{enumerate} \\end{thm*}    "
 }
 ]
 
